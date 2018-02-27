@@ -1,0 +1,1096 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head profile="http://www.w3.org/2005/10/profile">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                  <meta name="keywords" content="education, classrooms, teachers, students, schools, districts, common core, teks, sol, snapshot, online, communication, collaboration, quizzes, lms, learning, tools" />
+    <meta name="description" content="Edmodo is an easy way to get your students connected so they can safely collaborate, get and stay organized, and access assignments, grades, and school messages." />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgAGVF5RGwEHVFhQAAM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{h?h-=1:o(c||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:s.now();i("err",[t,n])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),d=!0)}c.on("fn-start",function(t,e,n){d&&(h+=1)}),c.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),c.on("fn-end",function(){d&&!this.thrown&&h>0&&(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1071.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);</script>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+                                <meta name="apple-itunes-app" content="app-id=378352300, affiliate-data=ct=AppBanner" />
+            <meta name="google-play-app" content="app-id=com.fusionprojects.edmodo">
+            <meta name="msApplication-ID" content="microsoft.build.App"/>
+            <meta name="msApplication-PackageFamilyName" content="microsoft.build_9wzdncrdsmjn"/>
+                        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no,initial-scale=1.0001,maximum-scale=1.0001">
+
+    <title>
+        Home | Edmodo    </title>
+
+            <link rel="shortcut icon" href="/edmodo_fav_final.ico" type="image/x-icon" />
+    
+    <link rel="apple-touch-icon" href="/images_v2/favicon/apple-touch-icon.jpg" />
+
+    
+<meta property="og:title" content="Edmodo" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.edmodo.com/home" />
+<meta property="og:image" content="https://a.edim.co/images_v2/opengraph/og_logo.png" />
+<meta property="og:site_name" content="Edmodo" />
+<meta property="fb:app_id" content="FB_APP_ID" />
+
+
+
+
+
+
+        <script>
+        try{
+            var timing = {
+                timing_start: new Date().getTime()
+            };
+        }catch(e){
+            var timing = {
+                timing_start: 0
+            };
+        }
+
+    </script>
+        
+<script src="//assets.edmodo.com/e.base.js.all.f937af0bbc8f1cb3.js" charset="UTF-8"></script>
+<script src="//assets.edmodo.com/locales.en.all.locales-yaml.96abb99b7bcb98f4.js" charset="UTF-8"></script>
+  <link rel="stylesheet" type="text/css" href="//assets.edmodo.com/e10.landing.css.all.d495a002a5277521.css" />
+  <link rel="stylesheet" type="text/css" href="//assets.edmodo.com/e10.core.css.student.f562654632ae60b7.css" />
+  <link rel="stylesheet" type="text/css" href="//assets.edmodo.com/e10.e1.css.student.4acee9d00609ba56.css" />
+  <link rel="stylesheet" type="text/css" href="//assets.edmodo.com/e10.e2.css.student.d3a9859f5c4891be.css" />
+  <link rel="stylesheet" type="text/css" href="//assets.edmodo.com/e11.billygoat.css.all.68b172cd8a30a0fa.css" />
+  <script src="//assets.edmodo.com/e10.landing.js.all.810ce1610526a627.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e11.billygoat.templates.all.templates.2f90cf4f6753aa66.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e11.billygoat.js.all.a281eb76f2a2b4ba.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e10.core.js.all.1349ef16baa9306d.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e10.e1.js.student.50cd17e54c4dd4c2.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e10.e2.js.student.5404c6acac409892.js" charset="UTF-8"></script>
+  <script src="//assets.edmodo.com/e10.e3.js.student.14be7388a037ff42.js" charset="UTF-8"></script>
+
+
+
+<script src="//www.google.com/jsapi"></script>
+<script>
+  if (I18n != 'undefined') {
+    I18n.fallbacks = true;
+    I18n.locale = "en";
+  }
+  if (moment != 'undefined') {
+    moment.locale("en");
+  }
+</script>
+  <script>
+    $.getScript("//d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js", function(data, textStatus, jqxhr) {
+      _.extend(Bugsnag, {"apiKey":"e26a2ac438cffcfbce9d3cccd861ec6c","releaseStage":"production","notifyReleaseStages":["production","qa-branch"],"autoNotify":true,"user":{"id":127106583,"type":"student","language":"en"}});
+    }, true);
+  </script>
+<script>
+  $.getJSON('//assets.edmodo.com/sentinel.d751713988987e93.js', function(data) {
+    if (typeof E.lib.Persistence != "undefined" && typeof data != "undefined" && data) {
+      E.lib.Persistence.saveForSession('sentinel', data);
+    }
+  });
+</script>
+
+<script>(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+
+      mixpanel.init("846214a85c2e5800e9200afb6990e503", {
+      loaded: function() {
+        mixpanel.identify("2490352ab879ab2f62ef4800044a07c5");
+        mixpanel.register({"user_type":"STUDENT","user_locale":"en"});
+      }
+    });
+
+  
+</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', "UA-176270-4", 'auto');  // Replace with your property ID.
+      ga('send', 'pageview');
+  </script>
+
+        
+                        <script>
+          var _kiq = _kiq || [];
+          (function(){
+            setTimeout(function(){
+              var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+              s.async = true; s.src = '//s3.amazonaws.com/ki.js/64071/eNE.js'; f.parentNode.insertBefore(s, f);
+            }, 1);
+          })();
+                      _kiq.push(['identify', '127106583']);
+                  </script>
+
+        <script>
+		modo.common.Client.mobile_webview = 0;
+        modo.system.config.CONTROLLER = 'home';
+        modo.system.config.DEFAULT_AVATAR = 'https://u.ph.edim.co/default-avatars/44_140.jpg';
+        // GLOBAL VARIABLES
+        modo.common.account.set({"logged_in":true,"id":"127106583","id_hash":"2490352ab879ab2f62ef4800044a07c5","type":"STUDENT","language":"en","name":"laddiel montejo","first_name":"laddiel","last_name":"montejo","avatar":"https:\/\/u.ph.edim.co\/default-avatars\/44_42.jpg","country_id":"US","location":"US","school_name":null,"school_state":null,"school_id":null,"district_id":null,"district_name":null,"role":null,"subdomain":null,"csrf_token":"suwBPfKwl7k1","sso_user":true,"admin_rights":null,"first_login":false,"is_premium_publisher":false,"google_tour_step":null});
+        modo.system.config.SNAPSHOT_URL_BASE = 'https://snapshot.edmodo.com';
+
+        // Reset first_login flag right after it's been rendered for javascript
+        
+        
+        modo.common.account['grade_range'] = {"start_level_id":"11","end_level_id":"14"};
+        modo.common.account['first_login'] = 0;
+        modo.common.account['admin_rights'] = "";
+
+        modo.system.config = _.extend(modo.system.config, {"OS_PLATFORM":"Windows 8.1","SEARCH_SERVICE_SUBDOMAIN":"api","ENVIRONMENT_DOMAIN":"edmodo.com","GOOGLE_TRANSLATE_API_KEY":"AIzaSyAJbWEQZBgr86jZPNO25q-lS8_fURh2380","MAX_MSG_IN_FEED":"10","NEW_GRADEBOOK_ENABLED":true,"NEW_GRADEBOOK_RESET_ENABLED":null,"NEW_GROUP_POSTBOX_ENABLED":false,"NEW_POSTBOX_URGENT_NOTE_ENABLED":false,"NEW_POSTBOX_ALL_CONNECTIONS_ENABLED":true,"MARKDOWN_ENABLED":false,"NEW_HOME_POSTBOX_ENABLED":false,"COAUTH_20160622Test":false,"COAUTH_20160721_RECIPIENT_TEST":true,"PERFORMANCE_TRACKING":"1","PIPEMAN_ENABLED":true,"SHARE_QUIZ_ELIGIBLE":"false","SHOW_USER_ONLINE_OFFLINE":null,"SNAPSHOT_ENABLED":true,"SNAPSHOT_LIGHTHOUSE_VARIANT":null,"SNAPSHOT_APPLICATION_ID":1118,"SNAPSHOT_PROMOTIONAL_ENABLED":false,"WATERBOY_URL":"https:\/\/waterboy.edmodo.com","PUSHSTATE_ENABLED":false});
+
+                
+        
+        modo.common.account.nextReferralBadge = {"completed":false,"badge":{"badge_id":"1794437","title":"Guide","language_key":"","description":"You earned the Guide badge by inviting at least 2 teachers to join Edmodo","creator_id":"9","school_id":"0","district_id":"0","category":null,"image":"\/images\/badges\/55\/guide.png","last_updated":"0000-00-00 00:00:00","shared":"0","has_large":"1","owner_type":"SYSTEM","owner_id":"9"},"ui_data":{"count":2}};
+                	modo.common.utilities.diamond_districts = [2174, 1333, 3480, 23505, 1452, 23553, 18032, 23593, 20816, 23757, 10356, 15895, 23975, 18177, 2946, 2034];
+
+        modo.common.utilities.colors = modo.common.utilities.colors || {};
+	modo.common.utilities.colors.currentColors = {"#e33c37":"color_41","#e66838":"color_42","#3583e5":"color_43","#28a992":"color_44","#e5368c":"color_45","#39c9e6":"color_46","#7f42c9":"color_47","#4cb855":"color_48","#717991":"color_49","#fecb00":"color_21"};
+
+        </script>
+        
+
+        
+    
+    
+          <script type="text/javascript" src="https://native.sharethrough.com/assets/sfp.js" data-str-disable-tracking="true"></script>
+    
+    
+    
+    
+</head>
+
+<body class="ac-STUDENT epage-home lang-en webkit chrome windows" data-is-apps-sandbox="0">
+
+        
+    
+
+<div id="elastic-container" class="hidden"></div>
+<iframe id="history-frame"></iframe>
+<iframe name="upload_iframe" class="hidden"></iframe>
+<div class="facebox-overlay" id="facebox-overlay"></div>
+
+<div id="facebox" class="dropshadow hidden border2" role="dialog" aria-labelledby="facebox-header-title">
+
+    <div class="popup">
+
+        <table>
+
+            <tr>
+
+                <td class="body">
+
+                    <div class="header">
+
+                        <a href="javascript:;" class="close pull-right" aria-label="Close"></a>
+                        <p id="facebox-header-title" class="title pull-left"></p>
+
+                    </div>
+
+                    <div class="content" aria-live="polite"></div>
+                    <div class="clear-div"></div>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+    
+<div id="topbar" class=" new-main-nav" role="navigation" aria-label="Edmodo">
+
+    <div id="topbar-inner">
+
+        <div id="topbar-content" class="span12 home">
+            <div class="header-message-container" aria-live="assertive"></div>
+            
+                
+<div id="mainnav-container">
+	<a href="/home" id="mainnav-logo-link" class="home-link"><i id="mainnav-logo" class="ico-mo-logo-"></i></a>
+	<div class="search-bar-wrapper">
+		<a id="small-profile-avatar-link-mobile" href="/home#/user?uid=127106583" data-tracker="profile">
+			<img class="small-profile-avatar border3 pull-left" src="https://u.ph.edim.co/default-avatars/44_42.jpg" alt="Me"/>
+		</a>
+		<div id="search-bar"></div>
+	</div>
+
+	<ul id="mainnav">
+		<li class="home">
+			<a href="/home" id="home-link" class="mainnav-link home-link" data-tracker="home">
+				<i class="nav-icon ico-home-"></i>
+				<span class="nav-label">Home</span>
+			</a>
+		</li>
+
+				<li class="assignments">
+			<a href="/home#/assignmentcenter" class="mainnav-link" data-tracker="assignmentcenter">
+				<i class="nav-icon ico-assignments-"></i>
+									<span class="nav-label">What's Due</span>
+							</a>
+		</li>
+		
+		
+				<li class="progress dd">
+			<a id="progress-link" class="mainnav-link" data-tracker="progress_dropdown" href="javascript:;">
+				<i class="nav-icon ico-gradebook-"></i>
+				<span class="nav-label">Progress</span>
+			</a>
+		</li>
+		
+				<li class="library">
+			<a href="/home#/library" id="library-link" class="mainnav-link" data-tracker="backpack">
+				<i class="nav-icon ico-backpack-"></span></i>
+				<span class="nav-label">Backpack</span>
+			</a>
+		</li>
+    
+		<li class="messaging messaging-icon">
+			<a href="/messaging" class="mainnav-link" data-tracker="messaging">
+				<i class="nav-icon ico-messaging-"><span id="chat-counter" class="new-counter hidden"><span></span></span></i>
+				<span class="nav-label">Messages</span>
+			</a>
+		</li>
+
+		<li class="new-notifications-menu dd">
+			<a class="mainnav-link" id="notifications-link">
+				<i class="nav-icon ico-notifications-"></i>
+				<span class="nav-label">Notifications</span>
+			</a>
+		</li>
+
+		<li class="account-menu dd account ttip">
+			<a id="mainnav-account" class="main-subnav-link" data-tracker="account_dropdown">
+				<span>
+					<img id="small-profile-avatar" class="border3 pull-left" src="https://u.ph.edim.co/default-avatars/44_42.jpg" alt="Me"/>
+					<i class="nav-subicon ico-arrow-down-"></i>
+				</span>
+			</a>
+			<a class="main-subnav-mobile main-subnav-link">
+        <div></div>
+        <div></div>
+        <div></div>
+	    </a>
+			<div class="main-subnav">
+				<div class="panelarrow"><div></div></div>
+				<ul>
+										<li class="spotlight dd divider"><a href="https://play.edmodo.com/" target="_blank" id="play-nav-link" data-tracker="notification_play"><i class="nav-subicon ico-spotlight-"></i><span class="nav-sublabel">Play</span></a></li>
+					
+                    
+					<!-- Join, create and manage class (teachers only) -->
+					
+					<!-- Join and show classes (students only) -->
+											<li class='mobile-only'><a href="javascript:$('#join-group-link').trigger('click');" class="join-group-link"><span class="icon icon-add-member"></span>Join a Class</a></li>
+
+						<li id="toggle-group-list-mobile" class="divider mobile-only"><a href="javascript:$('#toggle-group-list a').trigger('click');"><span class="icon icon-gear"></span>Show All Classes</a></li>
+					          
+										<li><a href="/home#/user?uid=127106583" id="profile-switch-link" data-tracker="profile"><i class="nav-subicon ico-person-"></i><span class="nav-sublabel">Profile</span></a></li>
+					
+										<li><a href="/home#/settings" id="account-settings-link" data-tracker="settings"><i class="nav-subicon ico-gear-"></i><span class="nav-sublabel">Settings</span></a></li>
+					
+					
+					<li class="divider"><a href="/index/logout" id="logout-link" data-tracker="logout"><i class="nav-subicon ico-logout-"></i><span class="nav-sublabel">Logout</span></a></li>
+
+					
+	        
+	        				</ul>
+			</div>
+		</li>
+      </ul>
+</div>
+
+<script>
+
+modo.Template.set('accounts-menu', ' <div id=\"settings-panel\" class=\"full-panel panel hidden \"> <div class=\"panelarrow\"><div></div></div> <ul id=\"sub-account\" class=\"panel-content border2 submenu\" role=\"menu\"> {{#if is_mobile}} <li class=\"mobile-spotlight-link bot-border\"> <a href=\"https://play.edmodo.com\" data-tracker=\"play_mobile\" role=\"menuitem\"><span class=\"pull-left ico\"></span>Play</a> </li> <li id=\"nav-group-join-link\" class=\"join-group-link\"> <a href=\"javascript:;\" data-tracker=\"join_group_mobile\" class=\"create-group-link\" role=\"menuitem\"> <span class=\"pull-left ico\"></span> Join Group </a> </li> <li id=\"nav-group-toggle-link\" class=\"bot-border\"> <a href=\"javascript:;\" data-tracker=\"show_all_groups_mobile\" role=\"menuitem\"> <span class=\"pull-left ico\"></span> Show All Groups </a> </li> {{/if}} <li><a id=\"profile-switch-link\" data-tracker=\"profile\" href=\"/home#/user?uid=127106583\" role=\"menuitem\" title=\"Profile\">Profile<span class=\"pull-left ico\"></span></a></li> <li><a id=\"account-settings-link\" data-tracker=\"settings\" href=\"/home#/settings\" title=\"Settings\" role=\"menuitem\">Settings<span class=\"pull-left ico\"></span></a></li> <li><a id=\"help-link\" data-tracker=\"help\" href=\"https://support.edmodo.com/?subdomain=www\" target=\"_blank\" title=\"Help\" role=\"menuitem\">Help<span class=\"pull-left ico\"></span></a></li> <li class=\"bot-border\"> <a id=\"logout-link\" data-tracker=\"logout\" href=\"/index/logout{{#if wns_device_id}}?wns_device_id={{wns_device_id}}{{/if}}\" title=\"Logout\" role=\"menuitem\">Logout <span class=\"pull-left ico\"></span> </a> </li> </ul> </div> ');
+modo.Template.set('progress-panel', '<div id=\"progress-panel\" class=\"full-panel panel\" role=\"menu\"> <div class=\"panelarrow\"><div></div></div> <div class=\"panel-content border2 submenu\"> {{#unless fetching}} {{#if groups}} <ul id=\"progress-list\"> {{#each groups}} {{#if enabled }} <li id=\"progress-group-{{group_id}}\" class=\"progress-group {{#if is_small_group}}is_small_group{{/if}}\" data-group-id=\"{{group_id}}\"> <span class=\"hex border3 pull-left\" style=\"background: {{hex}}\"></span> <a data-tracker=\"gradebook\" href=\"/home#/{{url}}\" aria-label=\"{{title}} Grades\" role=\"menuitem\">{{title}}</a> </li> {{/if}} {{/each}} </ul> {{else}} <div class=\"has-no-groups\"> <strong> {{t \'gradebook.no_gradebooks_yet\'}} </strong> </div> {{/if}} {{else}} <div class=\"loading\"></div> {{/unless}} </div> </div> ');modo.Template.set('search-results', ' <div id=\"search-suggestions-box\"> <div id=\"search-result-options\"> <ul class=\"search-suggestions\"></ul> </div> </div> ');
+
+modo.Template.set('search-teachers', ' <div class=\"search-teachers-container\"> <div class=\"search-teachers\"> <div class=\"teacher-search-container\"> <div class=\"teacher-search-wrap\"> <div class=\"placeholder-container\"> <input type=\"text\" class=\"search-teacher-input unfocused placeholder-input\" id=\"nav-search\" value=\"\"> <label class=\"placeholder-text\">Search by name</label> </div> </div> </div> <div class=\"teacher-suggestions-list-container\"> <p class=\"no-teacher-suggestions\">No suggested teachers. Please try searching by name.</p> <ul class=\"teacher-list\"></ul> </div> </div> </div> ');modo.Template.set('report-bug', ' <div class=\"report-a-bug-container\"> <div class=\"report-form\"> <ul> <li>What were you doing when your trouble occurred?</li> <li>What steps can we follow to reproduce the problem?</li> </ul> <div class=\"placeholder-container\"> <textarea class=\"placeholder-input\" resize_override=\"true\"></textarea> <label class=\"placeholder-text\">Give a detailed description of the broken feature...</label> </div> <p class=\"info-msg\">Your account and device information will be attached to the report, and we will only respond if we require more information. Please report site misuse, policy violations or feature requests to the <a href=\"/home#/community/support\" target=\"_blank\">Support Community</a>, or visit our <a href=\"https://support.edmodo.com\" target=\"_blank\">Help Center</a> for more information.</p> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span> or </span> <a href=\"javascript:;\" class=\"report-send btn blue-btn\">Send</a> </div> <div class=\"report-response hidden\"> <p>Thank you for reporting the problem. We will look into it right away.</p> </div> </div> ');modo.Template.set('report-user', ' <div id=\"report-user-prompt\" class=\"padding-20\"> <img src=\"{{src}}\" class=\"pull-left\"/> <p>Are you sure you want to report this teacher account?</p> </div> <div class=\"facebox-footer\"> <a class=\"btn blue-btn\" href=\"javascript:;\" id=\"\">Report</a> </div>');modo.Template.set('error-occurred', '<p class=\"error-occurred-container\">An error has occurred. Please contact support at <a href=\"mailto:support@edmodo.com\">support@edmodo.com</a></p> ');modo.Template.set('error-panel', '{{#if rendercontainer}} <div id=\"error-panel\"> {{/if}} <div id=\"error-panel-container\"> <p>{{message}}</p> <a id=\"error-panel-close\" href=\"javascript:;\"></a> </div> {{#if rendercontainer}} </div> {{/if}} ');modo.Template.set('header-message', '<div id=\"header-message\" {{#if cls}} class=\"{{cls}}\" {{/if}}><span>{{message}}</span></div> ');
+modo.Template.set('reactions-total', '<li class=\"reaction-total subtext pull-left\"><span>{{total}}</span> Reaction</li> ');modo.Template.set('message-options', '<div class=\"message-options dd pull-right\"> <a href=\"javascript:;\" class=\"options-btn border2\"></a> </div> ');modo.Template.set('reply-options', '<div class=\"reply-options dd pull-right\"> <a class=\"reply-options-btn\" href=\"javascript:;\"></a> </div> ');modo.Template.set('comments-container', '<div class=\"message-comments-container sunken\"> <ul class=\"comments\" id=\"comments-{{id}}\"></ul> </div> ');modo.Template.set('full-comment', '<p class=\"comment-content\"> <span class=\"full-comment hidden\">{{full}}</span> <span class=\"short-comment\">{{summary}}</span> <a href=\"javascript:;\" hide=\"Show Less...\" show=\"More...\" shown=\"false\" class=\"toggle-comment-content\">More...</a> </p> ');modo.Template.set('tooltip', '<div class=\"hopscotch-bubble animated edmodo-tooltip {{classes}}\"> <div class=\"hopscotch-bubble-container\"> <div class=\"hopscotch-bubble-content\"> <h3 class=\"hopscotch-title\">{{title}}</h3> <div class=\"hopscotch-content\">{{content}}</div> </div> <a class=\"hopscotch-bubble-close\" href=\"javascript:;\" title=\"Close\"></a> </div> <div class=\"hopscotch-bubble-arrow-container {{direction}}\"> <div class=\"hopscotch-bubble-arrow-border\"></div> <div class=\"hopscotch-bubble-arrow\"></div> </div> </div> ');modo.Template.set('s3-form', '<form id=\"form-{{form_name}}\" class=\"uploader-form\" method=\"POST\" enctype=\"multipart/form-data\" action=\"https://{{s3_bucket}}\" target=\"upload_iframe\"> <input type=\"hidden\" name=\"AWSAccessKeyId\" value=\"{{aws_access_key}}\" /> <input type=\"hidden\" name=\"acl\" value=\"{{acl}}\" /> <input type=\"hidden\" name=\"key\" value=\"{{key}}\" /> <input type=\"hidden\" name=\"policy\" value=\"{{policy}}\" /> <input type=\"hidden\" name=\"Content-Type\" value=\"{{file_type}}\" /> <input type=\"hidden\" name=\"signature\" value=\"{{signature}}\" /> <input type=\"hidden\" name=\"success_action_redirect\" value=\"{{domain}}/s3upload/ajax/upload-complete\" /> </form> ');
+modo.Template.set('notification-direct-post', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification direct-post {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-message-id=\"{{messageid}}\" data-creator-id=\"{{creatorid}}\" data-hide-rights=\"{{hiderights}}\" data-public-rights=\"{{publicrights}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"> {{#if multi}} {{#if is1}} <a href=\"/home#/profile/{{senderid}}\">{{sendername}}</a> sent you and 1 other a direct message: {{else}} <a href=\"/home#/profile/{{senderid}}\">{{sendername}}</a> sent you and {{other_count}} others a direct message: {{/if}} {{else}} <a href=\"/home#/profile/{{senderid}}\">{{sendername}}</a> sent you a direct message: {{/if}} </p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{senderid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{sendername}}\" src=\"{{avatar}}\" aria-label=\"{{sendername}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-direct-post-drilldown', ' <div class=\"clearfix padding\"> <p class=\"drilldown-title\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> said <span class=\"subtext\">{{timestamp}}</span></p> <a href=\"/home#/profile/{{senderid}}\" class=\"pull-left\"><img class=\"small-avatar ttip\" data-ttip=\"{{sendername}}\" src=\"{{avatar}}\" aria-label=\"{{sendername}}\" /></a> <div class=\"notification-message-container\"> <p>{{message}}</p> </div> </div> <ul class=\"notification-reply-list\"> {{#each comments}} <li> <a class=\"pull-left\" href=\"/home#{{avatar_link}}\"><img class=\"ttip\" data-ttip=\"{{sender_name}}\" src=\"{{sender_thumb}}\" /></a> <p>{{content}}</p> </li> {{/each}} </ul> <div class=\"notification-reply-container\" role=\"form\"> <div class=\"notifications-reply-container\"> <div class=\"placeholder-container\"> <label class=\"placeholder-text\">Reply</label> <textarea class=\"placeholder-input notification-reply-input emoji-enabled\"></textarea> </div> <div class=\"notification-reply-controls hidden\"> <a href=\"javascript:;\" class=\"notification-cancel-reply\">Cancel</a> <span class=\"subtext\">or</span> <a role=\"button\" href=\"javascript:;\" class=\"btn blue-btn notification-reply-btn\">Post Reply</a> </div> </div> </div> <div class=\"notification-view-post-container\"> <a href=\"/post/{{messageid}}\">View full post &#62;</a> </div> ');modo.Template.set('notification-added-to-group', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification added-to-group no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><b>{{username}}</b> has added you to the group <a href=\"/home#/group?id={{groupid}}\">{{name}}</a>:</p> <div class=\"notification-summary-content clearfix\"> <!--a class=\"notification-hex\" style=\"background: {{hex}}\"></a--> <a href=\"/home#/profile/{{userid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{username}}\" src=\"{{avatar}}\" aria-label=\"{{username}}\" /></a> <p class=\"notification-large-text\">{{name}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-alert', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification alert {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-message-id=\"{{messageid}}\" data-creator-id=\"{{creatorid}}\" data-hide-rights=\"{{hiderights}}\" data-public-rights=\"{{publicrights}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{senderid}}\">{{sendername}}</a> sent an alert to <a href=\"/home#/group?id={{groupid}}\">{{groupname}}</a>:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{senderid}}\"><img class=\"small-avatar ttip\" src=\"{{avatar}}\" data-ttip=\"{{sendername}}\" aria-label=\"{{sendername}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-alert-drilldown', ' <div class=\"clearfix padding\"> <p class=\"drilldown-title\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> said <span class=\"subtext\">{{timestamp}}</span></p> <a href=\"/home#/profile/{{senderid}}\" class=\"pull-left\"><img class=\"small-avatar ttip\" src=\"{{avatar}}\" data-ttip=\"{{sendername}}\" aria-label=\"{{sendername}}\" /></a> <div class=\"notification-message-container\"> <p>{{message}}</p> </div> </div> <ul class=\"notification-reply-list\"> {{#each comments}} <li> <a class=\"pull-left\" href=\"/home#{{avatar_link}}\"><img class=\"ttip\" data-ttip=\"{{sender_name}}\" src=\"{{sender_thumb}}\" /></a> <p>{{content}}</p> </li> {{/each}} </ul> {{#if replyrights}} <div class=\"notification-reply-container\" role=\"form\"> <div class=\"notifications-reply-container\"> <div class=\"placeholder-container\"> <label class=\"placeholder-text\">Reply</label> <textarea class=\"placeholder-input notification-reply-input emoji-enabled\"></textarea> </div> <div class=\"notification-reply-controls hidden\"> <a href=\"javascript:;\" class=\"notification-cancel-reply\">Cancel</a> <span class=\"subtext\">or</span> <a href=\"javascript:;\" role=\"button\" class=\"btn blue-btn notification-reply-btn\">Post Reply</a> </div> </div> </div> {{/if}} <div class=\"notification-view-post-container {{#unless replyrights}}border-top{{/unless}}\"> <a href=\"/post/{{messageid}}\">View full post &#62;</a> </div> ');modo.Template.set('notification-group-join-approved', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification group-join-request-approved no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\">Request to join <a href=\"/home#/group?id={{groupid}}\">{{name}}</a> approved:</p> <div class=\"notification-summary-content clearfix\"> <a class=\"notification-hex\" style=\"background: {{hex}}\"></a> <p class=\"notification-large-text\">{{name}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-reply', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification reply {{new}} {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-message-id=\"{{messageid}}\" data-comment-id=\"{{commentid}}\" data-creator-id=\"{{creatorid}}\" data-hide-rights=\"{{hiderights}}\" data-public-rights=\"{{publicrights}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if multi}} {{#if is1}} <p class=\"notification-title-row subtext\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> and <strong>1</strong> other replied to a post:</p> {{else}} <p class=\"notification-title-row subtext\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> and <strong>{{count}}</strong> others replied to a post:</p> {{/if}} <div class=\"notification-summary-content clearfix\"> <div class=\"avatar-stack\"> {{#each avatars}} <img style=\"{{style}};\" src=\"{{sender_thumb}}\" class=\"ttip\" data-ttip=\"{{name}}\" style=\"{{position}}\" aria-label=\"{{name}}\" /> {{/each}} </div> <p>{{summary}}</p> </div> {{else}} <p class=\"notification-title-row subtext\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> replied to a post:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/{{senderurl}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{sendername}}\" src=\"{{avatar}}\" aria-label=\"{{sendername}}\" /></a> <p>{{summary}}</p> </div> {{/if}} </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-reply-drilldown', ' <div class=\"clearfix padding\"> <p class=\"drilldown-title\"><a href=\"/home#/{{senderurl}}\">{{sendername}}</a> <span class=\"subtext\">said {{timestamp}}</span></p> <a href=\"/home#/{{senderurl}}\" class=\"pull-left\"><img class=\"small-avatar ttip\" aria-label=\"{{sendername}}\" data-ttip=\"{{sendername}}\" src=\"{{avatar}}\" /></a> <div class=\"notification-message-container\"> {{#unless isAppMsg}} <p>{{message}}</p> {{else}} <div class=\"notification-app-message-content\"> <p><span>Title</span> : {{message.title}}</p> <p><span>Standards</span> : {{message.standards}}</p> </div> {{/unless}} </div> </div> <ul class=\"notification-reply-list\"> {{#if morecomments}}<li class=\"notification-show-more-comments\"><a href=\"javascript:;\">Show more replies...</a><span class=\"subtext\">Loading...</span></li>{{/if}} {{#each replies}} <li> <a class=\"pull-left\" href=\"/home#/{{senderurl}}\" title=\"{{sender_name}}\"><img data-ttip=\"{{name}}\" aria-label=\"{{name}}\" class=\"ttip\" src=\"{{sender_thumb}}\" /></a> <p><a class=\"pull-left\" href=\"/home#/{{senderurl}}\" title=\"{{sender_name}}\">{{sender_name}}</a> &nbsp;<span class=\"subtext\">said {{creation_date}}</span></p> <p>{{content}}</p> </li> {{/each}} </ul> {{#if replyrights}} <div class=\"notification-reply-container\" role=\"form\"> <div class=\"notifications-reply-container\"> <div class=\"placeholder-container\"> <label class=\"placeholder-text\">Reply</label> <textarea class=\"placeholder-input notification-reply-input emoji-enabled\"></textarea> </div> <div class=\"notification-reply-controls hidden\"> <a href=\"javascript:;\" class=\"notification-cancel-reply\">Cancel</a> <span class=\"subtext\">or</span> <a href=\"javascript:;\" class=\"btn blue-btn notification-reply-btn\">Post Reply</a> </div> </div> </div> {{/if}} <div class=\"notification-view-post-container {{#unless replyrights}}border-top{{/unless}}\"> <a href=\"/post/{{messageid}}\">View full post &#62;</a> </div> ');modo.Template.set('notification-post-reaction', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification post-reaction no-expand notifications-goto-container {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if multi}} {{#if is1}} {{#if isquiz}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>1</strong> other liked your quiz: </p> {{else}} {{#if isassignment}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>1</strong> other liked your assignment: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>1</strong> other liked your post: </p> {{/if}} {{/if}} {{else}} {{#if isquiz}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>{{count}}</strong> others liked your quiz: </p> {{else}} {{#if isassignment}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>{{count}}</strong> others liked your assignment: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> and <strong>{{count}}</strong> others liked your post: </p> {{/if}} {{/if}} {{/if}} <div> <p class=\"notification-title-row subtext\"></p> <div class=\"notification-multi-avatars\"> {{#each displayctrs}} <a href=\"/home#/{{senderurl}}\"><img class=\"ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> {{/each}} </div> </div> {{else}} {{#if isquiz}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> liked your quiz: </p> {{else}} {{#if isassignment}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> liked your assignment: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"/home#/{{senderurl}}\">{{name}}</a> liked your post: </p> {{/if}} {{/if}} <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/{{senderurl}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> </div> {{/if}} </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-new-group-member', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification new-group-member {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if multi}} {{#if is1}} <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{name}}</a> and 1 other joined <a href=\"/home#/group?id={{groupid}}\">{{groupname}}</a>:</p> {{else}} <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{name}}</a> and {{count}} others joined <a href=\"/home#/group?id={{groupid}}\">{{groupname}}</a>:</p> {{/if}} <div class=\"notification-multi-avatars\"> {{#each displayctrs}} <a href=\"/home#/{{senderurl}}\"><img src=\"{{avatar}}\" class=\"ttip\" data-ttip=\"{{name}}\" aria-label=\"{{name}}\" /></a> {{/each}} </div> {{else}} <p class=\"notification-title-row subtext\">A new member joined <a href=\"/home#/group?id={{groupid}}\">{{groupname}}</a>:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/{{senderurl}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> <div> <p>{{name}}</p> <p>{{sendertype}}</p> </div> </div> {{/if}} </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-new-group-member-drilldown', ' {{#if rendercontainer}} <p class=\"group-title-bar\">{{groupname}}</p> <ul> {{/if}} {{#each members}} <li class=\"notification-new-group-member\" data-user-id=\"{{user_id}}\" data-group-id=\"{{group_id}}\"> <a class=\"pull-left\" href=\"/home#/{{senderurl}}\"><img src=\"{{avatar}}\" class=\"ttip\" data-ttip=\"{{name}}\" aria-label=\"{{name}}\" /></a> <div class=\"notifications-info\"> <p>{{name}}</p> <p>{{type}}</p> </div> <div class=\"notification-options\" role=\"form\"> <a role=\"button\" href=\"javascript:;\" class=\"btn notification-remove-from-group\">Remove from Group</a> {{#if readonly}} <a role=\"button\" href=\"javascript:;\" class=\"btn notification-modify-member-permissions contributor\">Make Contributor</a> {{else}} <a role=\"button\" href=\"javascript:;\" class=\"btn notification-modify-member-permissions\">Set Read-Only</a> {{/if}} </div> </li> {{/each}} {{morebar}} {{#if rendercontainer}} </ul> {{/if}} ');modo.Template.set('notification-grade', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification grade no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"assignment?mid={{messageid}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"/home#/assignment?mid={{messageid}}\">{{name}}</a> has been graded:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{userid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{gradername}}\" src=\"{{avatar}}\" aria-label=\"{{gradername}}\" /></a> <p class=\"notification-grade\">{{grade}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-quiz-grade', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification group-join-request-approved no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\">Request to join <a href=\"/home#/group?id={{groupid}}\">{{name}}</a> approved:</p> <div class=\"notification-summary-content clearfix\"> <a class=\"notification-hex\" style=\"background: {{hex}}\"></a> <p class=\"notification-large-text\">{{name}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-standalone-grade', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification grade no-expand {{new}} {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"javascript:;\">{{name}}</a> has been graded:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{userid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{gradername}}\" src=\"{{avatar}}\" aria-label=\"{{gradername}}\" /></a> <p class=\"notification-grade\">{{grade}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-event', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification event {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if ispast}} {{#if is1}} <p class=\"notification-title-row subtext\"><a href=\"{{url}}\">New event</a> was <strong>yesterday</strong>:</p> {{else}} <p class=\"notification-title-row subtext\"><a href=\"{{url}}\">New event</a> was <strong>{{count}} days</strong> ago:</p> {{/if}} {{else}} {{#if is1}} <p class=\"notification-title-row subtext\"><a href=\"{{url}}\">New event</a> is <strong>tomorrow</strong>:</p> {{else}} {{#if istoday}} <p class=\"notification-title-row subtext\"><a href=\"{{url}}\">New event</a> is <strong>today</strong>:</p> {{else}} <p class=\"notification-title-row subtext\"><a href=\"{{url}}\">New event</a> is in <strong>{{count}} days</strong>:</p> {{/if}} {{/if}} {{/if}} <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{user_id}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-event-drilldown', ' {{#if ispast}} {{#if is1}} <p class=\"drilldown-title subtext\"><a href=\"{{url}}\">New event</a> was yesterday:</p> {{else}} <p class=\"drilldown-title subtext\"><a href=\"{{url}}\">New event</a> was {{count}} days ago:</p> {{/if}} {{else}} {{#if is1}} <p class=\"drilldown-title subtext\"><a href=\"{{url}}\">New event</a> is tomorrow:</p> {{else}} {{#if istoday}} <p class=\"drilldown-title subtext\"><a href=\"{{url}}\">New event</a> is today:</p> {{else}} <p class=\"drilldown-title subtext\"><a href=\"{{url}}\">New event</a> is in {{count}} days:</p> {{/if}} {{/if}} {{/if}} <a class=\"pull-left\" href=\"/home#/profile/{{userid}}\"><img class=\"ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> <div class=\"notification-info notification-event-info\"> <p>{{content}}</p> <div class=\"notification-event-dates\"> {{#each dates}} <div> <p class=\"event-day\">{{day}}</p> <p class=\"event-date\">{{date}}</p> <p class=\"event-weekday\">{{dayname}}</p> </div> {{/each}} </div> </div> ');modo.Template.set('notification-assignment-comment', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification assignment-comment no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"/home#/{{senderurl}}\">{{name}}</a> has commented on <a href=\"/home#/assignment?mid={{id}}\">{{assignmentname}}</a>:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/{{senderurl}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-assignment-due', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification assignment-due {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-message-id=\"{{messageid}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if_eq resubmissionRequest 1}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due for resubmission{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{ else }} {{#if islate}} {{#if is1}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> was due <strong>yesterday</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> was due <strong>{{count}} days</strong> ago{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{/if}} {{else}} {{#if is1}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due <strong>tomorrow</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} {{#if istoday}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due <strong>today</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due in <strong>{{count}} days</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{/if}} {{/if}} {{/if}} {{/if_eq}} <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{userid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{creatorname}}\" src=\"{{avatar}}\" aria-label=\"{{creatorname}}\" /></a> {{#if_eq resubmissionRequest 1}} {{#if resubmitMessage}} <p>{{truncate resubmitMessage 200}}</p> {{ else }} <p>{{summary}}</p> {{/if}} {{else}} <p>{{summary}}</p> {{/if_eq}} </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-assignment-due-drilldown', ' <a class=\"pull-left\" href=\"/home#/profile/{{userid}}\"><img class=\"ttip\" aria-label=\"{{creatorname}}\" data-ttip=\"{{creatorname}}\" src=\"{{avatar}}\" /></a> <div class=\"notification-info\"> <p>{{content}}</p> </div> <div class=\"notification-options\" role=\"form\"> <a role=\"button\" class=\"btn blue-btn\" href=\"{{url}}\">Turn In</a> </div> ');modo.Template.set('notification-quiz-due', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification quiz-due {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if islate}} {{#if is1}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> was due <strong>yesterday</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> was due <strong>{{count}} days</strong> ago{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{/if}} {{else}} {{#if is1}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due <strong>tomorrow</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} {{#if istoday}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due <strong>today</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{else}} <p class=\"notification-title-row subtext\"> <a href=\"{{url}}\">{{name}}</a> is due in <strong>{{count}} days</strong>{{#if displayed_due_time}} @ {{displayed_due_time}}{{/if}}: </p> {{/if}} {{/if}} {{/if}} <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{userid}}\"><img class=\"small-avatar ttip\" data-ttip=\"{{assignername}}\" src=\"{{avatar}}\" aria-label=\"{{assignername}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-quiz-due-drilldown', ' <a class=\"pull-left\" href=\"/home#/profile/{{userid}}\"><img class=\"ttip\" data-ttip=\"{{assignername}}\" src=\"{{avatar}}\" aria-label=\"{{assignername}}\" /></a> <div class=\"notification-info\"> {{#if islate}} {{#if is1}} <p class=\"subtext\"><a href=\"{{url}}\">{{name}}</a> was due yesterday:</p> {{else}} <p class=\"subtext\"><a href=\"{{url}}\">{{name}}</a> was due {{count}} days ago:</p> {{/if}} {{else}} {{#if is1}} <p class=\"subtext\"><a href=\"{{url}}\">{{name}}</a> is due tomorrow:</p> {{else}} {{#if istoday}} <p class=\"subtext\"><a href=\"{{url}}\">{{name}}</a> is due today:</p> {{else}} <p class=\"subtext\"><a href=\"{{url}}\">{{name}}</a> is due in {{count}} days:</p> {{/if}} {{/if}} {{/if}} <p>{{content}}</p> </div> <div class=\"notification-options\" role=\"form\"> <a role=\"button\" class=\"btn blue-btn\" href=\"{{url}}\">Take Quiz</a> </div> ');modo.Template.set('notification-app-installed', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification app-installed no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-app-id=\"{{appid}}\" data-cookie-set-url=\"{{cookieurl}}\" data-is-ssl-app=\"{{ssl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{username}}</a> installed the <strong>{{appname}}</strong> app:</p> <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" aria-label=\"{{appname}}\" /> <p title=\"{{description}}\">{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-single-reply', ' <li> <a class=\"pull-left\" href=\"/home#/{{senderurl}}\"><img class=\"avatar-30\" src=\"{{avatar}}\" aria-label=\"Me\" /></a> <p class=\"notification-reply-summary\"><a href=\"/home#/{{senderurl}}\">Me</a> -&nbsp; {{summary}}{{#if islong}}<a class=\"notification-show-full-reply\" href=\"javascript:;\">show-full-reply</a>{{/if}}</p> {{#if islong}} <p class=\"notification-reply-full\">{{full}}<a class=\"notification-hide-full-reply\" href=\"javascript:;\">hide-full-reply</a></p> {{/if}} </li> ');modo.Template.set('notification-menu', ' {{#unless is_student}} {{#if connectionrequest}} <li><a class=\"notification-ignore-all\" href=\"javascript:;\">Ignore All</a></li> {{/if}} {{#if moderatedmessage}} <li><a class=\"moderation-approve-all\" href=\"javascript:;\">Approve All</a></li> {{/if}} {{/unless}} {{#if message}} {{#unless is_student}}<li class=\"notifications-share-msg\"><a href=\"javascript:;\">Share Post</a></li>{{/unless}} <li url=\"{{domain}}/post/\" class=\"see-link-post\"><a href=\"javascript:;\">Link to this Post</a></li> {{#unless is_student}} <li class=\"add-post-to-lib\"><a href=\"javascript:;\">Add Post to Library</a></li> <li class=\"post-added-to-lib disabled\"><a href=\"javascript:;\">Added to Library</a></li> {{/unless}} {{/if}} ');modo.Template.set('notification-nothing-new', '<li id=\"nothing-new\"><em>It\'s cool, nothing new.</em></li>');modo.Template.set('new-notifications', '{{#if notshowing}} <li class=\"new-notifications-bar\"> {{/if}} <a href=\"javascript:;\">{{#if is1}}You have 1 new notification{{else}}You have {{count}} new notifications{{/if}}</a> {{#if notshowing}} </li> {{/if}} ');modo.Template.set('notification-note-wrapper', ' <div class=\"notification-note-wrapper\"> <div class=\"placeholder-container notification-note-container\"> <label class=\"placeholder-text\">Send a note...</label> <textarea class=\"placeholder-input emoji-enabled\"></textarea> </div> <div class=\"notification-options\"> <a href=\"javascript:;\" class=\"btn blue-btn send-connection-note\">Send</a> <a href=\"/home#/profile/{{id}}\">View full profile...</a> </div> <p class=\"notification-note-confirmation\">Your note has been sent</p> </div> ');modo.Template.set('notification-show-more', '<li class=\"show-more-notifications-by-type\"><a href=\"javascript:;\">Show more</a></li>');modo.Template.set('notification-drilldown', '<div class=\"drill-down clearfix {{type}}-drilldown {{cls}}\">{{content}}</div> ');modo.Template.set('notification-none-of-type', '<li class=\"no-notifications-of-type subtext\">You have no notifications of this type.</li>');modo.Template.set('notification-new-not-tooltip', '<div class=\"hopscotch-bubble hidden animated\"> <div class=\"hopscotch-bubble-container\"> <div class=\"hopscotch-bubble-content\"> <h3 class=\"hopscotch-title\">It\'s like having your very own assistant.</h3> <div class=\"hopscotch-content\">Designed to let you know when something new comes in— a connection request, post reply, completed assignment—Notifications have been updated so you don\'t miss a thing. <a target=\"_BLANK\" href=\"https://support.edmodo.com/home#entries/22901415-updated-notifications\">Find out more.</a></div> </div> <a class=\"hopscotch-bubble-close\" href=\"javascript:;\" title=\"Close\"></a> </div> <div class=\"hopscotch-bubble-arrow-container up\"> <div class=\"hopscotch-bubble-arrow-border\"></div> <div class=\"hopscotch-bubble-arrow\"></div> </div> </div> ');modo.Template.set('notification-badge-earned', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification badge-earned no-expand {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}} notifications-goto-container\" data-go-to=\"{{gotourl}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row\">{{title}}:</p> <div class=\"notification-summary-content clearfix\"> {{#if is_owner_district}} {{#if is_diamond_district}} <img class=\"notification-summary-img district-badge-noti\" src=\"//a.edim.co/images_v2/badges/pd_badges/diamond_55px.png\" style=\"background:url({{image}}) no-repeat -0px -0px; background-size:42px; width:42px;\" aria-label=\"{{name}}\" /> {{else}} <img class=\"notification-summary-img district-badge-noti\" src=\"//a.edim.co/images/badge-border.png\" style=\"background:url({{image}}) no-repeat -0px -0px; background-size:42px; width:42px;\" aria-label=\"{{name}}\" /> {{/if}} {{else}} <img class=\"notification-summary-img\" src=\"{{image}}\" aria-label=\"{{name}}\" /> {{/if}} <p><strong>{{name}}</strong> - {{description}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-app-notification', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification app-notification no-expand {{new}} {{#if_eq seen 2}}read{{/if_eq}} {{#if snapshot_unfocus}}read-only{{/if}}\" data-app-id=\"{{appid}}\" data-cookie-set-url=\"{{cookieurl}}\" data-is-ssl-app=\"{{ssl}}\" data-app-data=\"{{appdata}}\"> {{/if}} <div class=\"notification-summary app-notification-container\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 2}}Mark as Read{{else}}Mark as Unread{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> {{#if snapshot_quiz_created}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> <p><strong>{{name}}\'s</strong> Snapshot is due on <strong>{{duedate}}</strong>. <a href=\"javascript:;\">Get started.</a></p> </div> {{/if}} {{#if snapshot_comeback}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> <p>You opened Snapshot. Come see how quick and easy it is to <strong>create and assign one</strong></p> </div> {{/if}} {{#if snapshot_sendout_reminder}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> <p>The <strong>{{title}}</strong> Snapshot you created is ready to be assigned. Why wait? <strong>Send today</strong></p> </div> {{/if}} {{#if snapshot_create_followup}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> <p><strong>It\'s been {{days}} days</strong> since your students completed <strong>{{title}}</strong>. See how they perform on the standards below and create another Snapshot. {{#each standards}} <span class=\"standards-container\">{{this}}</span> {{/each}} </p> </div> {{/if}} {{#if snapshot_completed}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> {{#if is1}} <p><strong>1 student</strong> has completed your <strong>{{title}}</strong> Snapshot.</p> {{else}} <p><strong>{{count}} students</strong> completed your <strong>{{title}}</strong> Snapshot.</p> {{/if}} </div> {{/if}} {{#if snapshot_quiz_due}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> {{#if future_due}} <p>You have a Snapshot due in <strong>{{days}}</strong> days. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} {{#if is1}} <p>You have a Snapshot due in <strong>1 day</strong>. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} {{#if today}} <p>You have a Snapshot due <strong>today</strong>. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} {{#if past_due_today}} <p>You have a Snapshot just overdue <strong>today</strong>. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} {{#if past_due_by_1}} <p>You have a Snapshot overdue by <strong>1 day</strong>. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} {{#if past_due}} <p>You have a Snapshot overdue by <strong>{{days}}</strong> days. <a href=\"javascript:;\">Complete it now.</a></p> {{/if}} </div> {{/if}} {{#if snapshot_see_report}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> <p>Your students have completed <strong>{{title}}</strong> Snapshot. <a href=\"javascript:;\">See the results.</a></p> </div> {{/if}} {{#if snapshot_unfocus}} <div class=\"notification-summary-content clearfix\"> <img class=\"notification-summary-img\" src=\"https://apps.edim.co/{{appthumb}}\" /> {{#if seconds}} {{#if is1second}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>1 second</strong>.</p> {{else}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>{{numseconds}} seconds</strong>.</p> {{/if}} {{/if}} {{#if minutes}} {{#if is1minute}} {{#if noseconds}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>1 minute</strong>.</p> {{else}} {{#if is1second}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for 1 minute and 1 second.</p> {{else}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for 1 minute and <strong>{{numseconds}} seconds</strong>.</p> {{/if}} {{/if}} {{else}} {{#if noseconds}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>{{numminutes}} minutes</strong>.</p> {{else}} {{#if is1second}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>{{numminutes}} minutes and 1 second</strong>.</p> {{else}} <p><strong>{{name}}</strong> left <strong>{{title}}</strong> for <strong>{{numminutes}} minutes and {{numseconds}} seconds</strong>.</p> {{/if}} {{/if}} {{/if}} {{/if}} </div> {{/if}} </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-group-invitation', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification group-invitation {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> </div> {{#if multi}} {{#if is1}} <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{name}}</a> and <strong>1</strong> other have invited you to join a group:</p> {{else}} <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{name}}</a> and <strong>{{count}}</strong> others have invited you to join a group:</p> {{/if}} <div class=\"notification-multi-avatars\"> {{#each displayconns}} <a href=\"/home#/profile/{{user_id}}\"><img src=\"{{avatar}}\" class=\"ttip\" data-ttip=\"{{name}}\" aria-label=\"{{name}}\" /></a> {{/each}} </div> {{else}} <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{id}}\">{{name}}</a> has invited you to join the group {{groupname}}:</p> <div class=\"notification-summary-content clearfix\"> <a href=\"/home#/profile/{{id}}\"><img class=\"small-avatar ttip\" src=\"{{avatar}}\" data-ttip=\"{{name}}\" aria-label=\"{{name}}\" /></a> </div> {{/if}} </div> {{#if rendercontainer}} </li> {{/if}} ');modo.Template.set('notification-group-invitation-drilldown', ' {{#if rendercontainer}} <ul> {{/if}} {{#each connections}} <li data-user-id=\"{{user_id}}\" data-group-id=\"{{group_id}}\" uid=\"{{user_id}}\"> <div class=\"notification-connection-info clearfix\"> <a class=\"pull-left\" href=\"/home#/profile/{{user_id}}\"><img class=\"ttip\" data-ttip=\"{{name}}\" src=\"{{avatar}}\" aria-label=\"{{name}}\" /></a> <div class=\"notification-info\"> <p><a href=\"/home#/profile/{{user_id}}\">{{name}}</a> has invited you to join the group <strong>{{groupname}}</strong></p> </div> <div class=\"clear\"> <a role=\"button\" class=\"btn blue-btn group-invitation-join\" href=\"javascript:;\">Join</a> <a role=\"button\" class=\"btn group-invitation-ignore\" href=\"javascript:;\">Ignore</a> </div> </div> </li> {{/each}} {{morebar}} {{#if rendercontainer}} </ul> {{/if}} ');modo.Template.set('notification-urgent-note', ' {{#if rendercontainer}} <li id=\"{{nid}}\" class=\"notification urgent-note no-expand notifications-goto-container {{#if_eq seen 2}}unread{{/if_eq}} {{#if_eq seen 0}}new{{/if_eq}}\" data-go-to=\"post/{{messageid}}\"> {{/if}} <div class=\"notification-summary\"> <div class=\"notification-main-options\"> <a class=\"toggle-read-status ttip\" href=\"javascript:;\" data-ttip=\"{{#if_eq seen 1}}Mark as Unread{{else}}Mark as Read{{/if_eq}}\" data-ttip-read=\"Mark as Read\" data-ttip-unread=\"Mark as Unread\"></a> <a class=\"remove-notification ttip\" href=\"javascript:;\" data-ttip=\"Hide Notification\"></a> </div> <p class=\"notification-title-row subtext\"><a href=\"/home#/profile/{{senderid}}\">{{sendername}}</a> sent a note:</p> <div class=\"notification-summary-content clearfix\"> <span class=\"urgent-note-tag\">IMPORTANT</span> <a href=\"/home#/profile/{{senderid}}\"><img class=\"small-avatar ttip\" src=\"{{avatar}}\" data-ttip=\"{{sendername}}\" aria-label=\"{{sendername}}\" /></a> <p>{{summary}}</p> </div> </div> {{#if rendercontainer}} </li> {{/if}}');
+
+    $(document).ready(function() {
+        this.notificationsApp = new NotificationsMenuApp({
+          el: '.new-notifications-menu',
+          show_new_topbar: false        });
+				this.messagingIconApp = new MessagingIconApp({
+					el: '.messaging-icon'
+        });
+				function closeSubnav() {	// closes mainnav sub menu
+					$('.account-menu').removeClass('dd-visible');
+				}
+				$('.account-menu').on('click', function(e) {
+					e.stopPropagation();
+					// already open, close subnav
+				  if($('.account-menu').hasClass('dd-visible')) {
+						closeSubnav();
+            $('html').unbind('click', closeSubnav);
+					// already closed, open subnav and close other subnavs that may be open
+          } else {
+						$('.account-menu').siblings('.dd-visible').removeClass('dd-visible');
+            $('.account-menu').addClass('dd-visible');
+						$('html').bind('click', closeSubnav);
+          }
+				});
+				if(modo.common.Client.mobile) {
+					$(window).on('scroll', function() {
+						if($(this).scrollTop() > 0) {
+							$('.search-bar-wrapper').slideUp();
+						} else {
+							$('.search-bar-wrapper').slideDown();
+						}
+					});
+				}
+    });
+
+</script>
+
+            
+            <div id="no-connection-message">Internet connection problem.</div>
+
+            <div class="clearfix"></div>
+
+        </div> 
+    </div> 
+</div> 
+  <div id="site-viewport" class="clearfix ">
+
+      
+          
+<!-- DIS-2080: DISPLAY BULK UPLOAD NAGBAR FOR ADMINS - ALL THE TIME -->
+
+          <div class='hidden' id="message-bar-for-group-copy">
+      <div class="message-bar-for-group-copy-content">
+        <div id="progress-div">
+          <div class='inline' id="progress-bar-for-group-copy"></div>
+        </div>
+        <div class='inline' id="error-label"><h2>Your group is being copied</h2>It may take a few seconds for larger groups to appear in your groups list.</div>
+        <div id="cross-icon"></div>
+      </div>
+    </div>
+
+      <div class="current-view  ">
+        <div class="full-width-message-bar"><div class="message-bar-content"></div></div>
+        <div class="notification-banner-wrapper"></div>
+                        
+      <div id="content-container" class="view" />
+
+          
+          <div id="content">
+
+              <script type="text/javascript">
+                  //if we're on home determine how to handle views if there's a hash tag present
+                  if(modo.system.ViewManager && typeof modo.system.ViewManager.checkView === 'function')modo.system.ViewManager.checkView();
+                  if(modo.system.Location.module == 'topics' ||
+                     (modo.common.account &&
+                      modo.system.Location.module != '')) {
+                                                  $('#site-viewport').height($(window).height() - $('#topbar').height());
+                                          }
+              </script>
+              <a name="skipMainNav"></a>
+
+              
+    
+<div class="span12 clearfix">
+
+  <div class="left-column section transparent span3 first-col" role="complimentary">
+
+    <script>
+modo.Template.set('update-avatar-verify-password', '<div id=\"change-avatar-verify-password\" class=\"update-container\" role=\"form\" aria-labelledby=\"facebox-header-title\"> <div class=\"row1 clearfix\"> <p class=\"error\" style=\"display: none;\">Incorrect Password</p> <input id=\"password-verification\" name=\"password-verification\" type=\"password\" /> </div> <div class=\"loader\" style=\"display:none\"></div> <div class=\"facebox-footer\"> <a class=\"btn blue-btn\" id=\"password-verification-okay\" type=\"submit\">Verify</a> </div> </div> ');modo.Template.set('update-avatar', '<div id=\"change-avatar\" class=\"update-container\"> <div class=\"row1 clearfix\"> <div class=\"avatar\"> <img src=\"https://u.ph.edim.co/default-avatars/44_140.jpg\"> <p class=\"lbl\">Your Current Photo</p> </div> <div class=\"upload\"> <p class=\"lbl\">Upload photo (Max. 10 MB)</p> <form id=\"avatar-form\" class=\"modo-widgets-uploader\" action=\"{{action_prepend}}/settings/ajax-upload-avatar\" target=\"avatar-upload-target\" enctype=\"multipart/form-data\" method=\"post\"> <input type=\"hidden\" name=\"callback\" value=\"modo.system.ViewManager.managerInstance.iFCallback\"> <input name=\"new_photo\" type=\"file\"> <a class=\"btn\">Choose file</a> </form> <iframe name=\"avatar-upload-target\" style=\"display:none\"></iframe> </div> </div> <div class=\"defaults clearfix\"> <p class=\"lbl\">You can also select one of these</p> <a class=\"prev\"><span></span></a> <div class=\"pages\"> <div class=\"slider\"> <img did=\"44\" src=\"https://u.ph.edim.co/default-avatars/44.jpg\"> <img did=\"45\" src=\"https://u.ph.edim.co/default-avatars/45.jpg\"> <img did=\"46\" src=\"https://u.ph.edim.co/default-avatars/46.jpg\"> <img did=\"47\" src=\"https://u.ph.edim.co/default-avatars/47.jpg\"> <img did=\"48\" src=\"https://u.ph.edim.co/default-avatars/48.jpg\"> </div> </div> <a class=\"next\"><span></span></a> </div> <div class=\"loader\" style=\"display:none\"></div> <div class=\"facebox-footer\"></div> </div>');modo.Template.set('update-avatar-edvatar', '<div id=\"change-avatar\"> <iframe src=\"https://avatar.edmodo.com?edmodo_user_id={{ab_test_user_type_param}}\"></iframe> </div>');</script>
+
+
+    
+<!--            Start of profile card              -->
+<div id="profile-card-avatar-container" class="avatar-container section " data-url="/home#/user?uid=127106583">
+    <div class="profile-card">
+        <div class="avatar-section">
+                            <img class="border2 pull-left avatar-img no-profile-info" alt="laddiel montejo" src="https://u.ph.edim.co/default-avatars/44_140.jpg" />
+                        <div class="user-info pull-left">
+                                    <a class="text-15 leftbar-profile-link" aria-label="View My Profile, laddiel m.">laddiel m.</a>
+                                                    <p class="subtext">Student</p>
+                            </div>
+        </div>
+        <div class="clearfix"></div>
+                    <div class="school-link-container">
+                <a href="/school/ManualCareerTechCtrMO51502?source=home_me_card" title="Manual Career &amp; Tech. Center">
+                    <img src="https://api.edmodo.com/schools/51502/avatar?type=small" class="community-avatar">
+                    Manual Career &amp; Tech. Center                                    </a>
+            </div>
+                            <div class="district-link-container">
+                <a href="/district/KansasCityPublicSchoolsMO8325?source=home_me_card" title="Kansas City Public Schools">
+                    <img src="https://api.edmodo.com/districts/8325/avatar?type=small" class="community-avatar">
+                    Kansas City Public Schools                                    </a>
+            </div>
+                            </div>
+</div>
+<!--     End of profile card           -->
+  
+      
+      <div class="avatar-container section " data-url="">
+            <span class="avatar-tip-holder">
+                <a href="javascript:;" class="btn avatar-tip">
+                    Looks like you don't have an avatar. Get one here!                </a>
+            </span>
+      </div>
+    
+    
+
+
+
+    
+    
+<div class="groups-container classes-section section ">
+    <h3 class="section-header-bg-white dd">Classes</h3>
+    <div class="link-list-class-container"></div>
+    <ul class="link-list-group-options">
+
+              <li id="toggle-group-list">
+          <a href="javascript:;">
+            <span class="icon icon-gear"></span>Show All Classes</a>
+        </li>
+
+                    <li class="options-join">
+          <a id="join-group-link" href="javascript:;" class="join-group-link">
+            <span class="icon icon-add-member"></span>Join a Class</a>
+        </li>
+          </ul>
+    <script>
+        modo.Template.set('nav-group-row', ' <li data-id=\"{{group_id}}\" class=\"{{css_class}}{{#if is_selected}} selected{{/if}}{{#if has_small_group_list}} has_small_group_list{{/if}}{{#if new_ele}} swoop-in-new{{/if}}\"> <div class=\"clearfix\" style=\"border-left-color:{{group_hex}}\"> <a href=\"/home#/group?id={{group_id}}\"> {{group_name}} {{#unless group_enabled}} <span class=\"subtext\">disabled group</span> {{/unless}} </a> <span class=\"group-message-count\">{{emptyIfZero new_message_count}}</span> <span class=\"drag-row-icon\"></span> </div> </li> ');        modo.Template.set('nav-small-group-row', ' {{#if create_small_group}} <li class=\"create-new-small\"> <a href=\"javascript:;\" class=\"create-new-small-group {{#if fade_in_small}}fade-in-init{{/if}}\"> <span class=\"icon icon-plus {{color_class}}\"></span>Create a Small Group </a> </li> {{else}} <li class=\"small-group {{#if is_selected }}selected{{/if}}\" data-id=\"{{group_id}}\" style=\"{{#if is_selected }}background-color:{{group_hex}}{{/if}}\" data-hex=\"{{group_hex}}\"> <div class=\"clearfix small-group-clearfix-override\"> <a href=\"/home#/group?id={{group_id}}\" class=\"{{#if fade_in_small}}fade-in-init{{/if}}\"> <span class=\"group-name\"> <span class=\"color-box\" style=\"background-color:{{group_hex}}\"></span> {{group_name}} </span> </a> <span class=\"group-message-count\">{{emptyIfZero new_message_count}}</span> {{#if manages_group}} <span class=\"drag-row-icon\"></span> {{/if}} </div> </li> {{/if}} ');    </script>
+
+</div>
+
+
+
+
+
+<div class="communities-container standard-module section">
+    <h3 class="section-header-bg-white dd">Communities</h3>
+    <ul id="community-list" class="link-list-icon with-count" aria-label="My Communities">
+                                            <li id="com-" data-id="" data-name="Manual Career &amp; Tech. Center" class="community">
+                <a href="/school/ManualCareerTechCtrMO51502" title="Manual Career &amp; Tech. Center">
+                    <img class="thumb" src="https://api.edmodo.com/schools/51502/avatar?type=small" aria-hidden="true" />
+                    Manual Career &amp; Tech. Center                </a>
+            </li>
+                                                        <li id="com-" data-id="" data-name="Kansas City Public Schools" class="community">
+                <a href="/district/KansasCityPublicSchoolsMO8325" title="Kansas City Public Schools">
+                    <img class="thumb" src="https://api.edmodo.com/districts/8325/avatar?type=small" aria-hidden="true" />
+                    Kansas City Public Schools                </a>
+            </li>
+                                </ul>
+</div>
+
+
+<div class="parent-container section">
+    <h3 class="section-header-bg-white dd">
+            Parents        </h3>
+        <ul class="link-list-parents">
+                <li>
+            <a href="javascript:;">
+                <img class="avatar" src="https://u.ph.edim.co/default-avatars/1_42.jpg">
+                <span class="label">
+                Luis
+                </span>
+            </a>
+         </li>
+                <li>
+            <a href="javascript:;" class="add-parent invite-parent-btn">
+                <span class="icon icon-plus"></span>
+                <span class="label">
+                Invite Parent                </span>
+            </a>
+        </li>
+    </ul>
+        <p>
+        Give this code to your parents so they can create an Edmodo account:    </p>
+    <p class="clearfix parent-code">
+        <a href="javascript:;" aria-label="Give this code to your parents so they can create an Edmodo account: pb2ktvmfh">pb2ktvmfh</a>
+    </p>
+</div>
+
+<script>
+
+            modo.Template.set('color-selector', '<div class=\"color-picker\"> <div class=\"cur-color pull-left\"> <a class=\"pull-left border2\" style=\"background: {{color}}\" href=\"javascript:;\"></a> </div> <div class=\"color-list pull-left dropshadow\"> <a cid=\"41\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #e33c37\"></a> <a cid=\"42\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #e66838\"></a> <a cid=\"43\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #3583e5\"></a> <a cid=\"44\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #28a992\"></a> <a cid=\"45\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #e5368c\"></a> <a cid=\"46\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #39c9e6\"></a> <a cid=\"47\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #7f42c9\"></a> <a cid=\"48\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #4cb855\"></a> <a cid=\"49\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #717991\"></a> <a cid=\"21\" href=\"javascript:;\" class=\"selector-hex border2 pull-left\" style=\"background-color: #fecb00\"></a> </div> </div> ');        modo.Template.set('join-group', ' <div class=\"join-group-container\" role=\"form\" aria-labelledby=\"facebox-header-title\"> <div class=\"join-group-content\"> <p class=\"error hidden join-group-invalid-error\"><span>The code you entered is invalid</span></p> <p class=\"error hidden join-group-rate-limited\"><span>Oops, that didn\'t work. Try again or <a href=\"https://support.edmodo.com/home\">contact us</a>.</span></p> <p class=\"error hidden join-group-api-failure\"><span>Oops, that didn\'t work. Try again or <a href=\"https://support.edmodo.com/home\">contact us</a>.</span></p> <p class=\"error hidden join-group-locked-error\"><span>The group you\'re trying to join is locked.</span></p> <p class=\"error hidden join-group-repeated-error\"><span>You are already a member of this group</span></p> <p class=\"error hidden join-group-similar-error\"></p> <p class=\"error hidden join-group-institutional-error\"><span>You are using the Edmodo Institutional Version and the group you are trying to join does not belong to this version</span></p> <p class=\"error hidden join-group-system-error\"><span>An error occurred. If you continue to see this message please contact support at <a href=\"mailto:support@edmodo.com\">support@edmodo.com</a>.</span></p> <div class=\"placeholder-container\"> <input id=\"join-group-input\" type=\"text\" class=\"unfocused placeholder-input\" value=\"\" aria-label=\"Group Code\"> <label class=\"placeholder-text\">Group Code</label> </div> <p class=\"join-group-success hidden\">Group joined successfully</p> <p class=\"join-group-queue hidden\">You have been added to the approval queue for <strong></strong>.</p> <p class=\"user-already-requested hidden\">You\'ve already been placed in the approval queue for this group</p> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span> or </span> <a href=\"javascript:;\" class=\"join-group-btn btn blue-btn\">Join</a> </div> </div> ');            
+                modo.Template.set('student-to-parent-email', '<div id=\"parent-invitation-modal\"> <div class=\"facebox-body form\"> <p class=\"label-text text\">Enter your Parent\'s email address</p> <div class=\"placeholder-container\"> <input type=\"text\" aria-required=\"true\" id=\"parent_invitation_email\" class=\"unfocused placeholder-input clickedonce email-input\"> <label class=\"placeholder-text\"></label> </div> <p class=\"parent-invite-phone-example text hidden\">Example phone number: 600-555-1025</p> <p class=\"text empty-email hidden error\">Required</p> <p class=\"text invalid-email hidden error\">not an email address</p> <p class=\"text invalid-us-phone hidden error\">not a valid U.S. phone number</p> </div> <div class=\"facebox-body success hidden\"> <p>Your invite has been sent!</p> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span>or</span> <a class=\"btn send-invitation-btn\">Send</a> </div> </div>');    
+    (function(){
+                    stateObj = modo.State;
+        
+        
+        stateObj.groups.active = {"24745528":{"group_id":"24745528","sync_enabled":null,"read_only":"0","user_id":"127106583","color_id":"2","send_notifications":"1","show_in_latest_posts":"1","favorites_ranking":"2","title":"C++ and Java 2017-2018","master_read_only":"0","creator_id":"26632177","code":"","locked":"1","archived":"0","moderated":"0","enabled":true,"public_id":"vrp4i2","public_code":"vrp4i2","membership_last_updated":"0000-00-00 00:00:00","background_url":null,"description":"","subject_id":"12","sub_subject_id":"0","start_level_id":"11","end_level_id":"14","expected_group_size_id":null,"parent_read_only":"0","parent_cannot_view_posts":"0","group_user_type":"STUDENT","has_small_groups":1,"is_small_group":0,"hex":"#3366cc","user_owns_group":0,"search_field":"c++ and java 2017-2018","co_teacher":0,"new_message_count":"20+","name":"C++ and Java 2017-2018","pos":0},"26046784":{"group_id":"26046784","sync_enabled":null,"read_only":"0","user_id":"127106583","color_id":"2","send_notifications":"1","show_in_latest_posts":"1","favorites_ranking":"1","title":"Native Spanish II ","master_read_only":"0","creator_id":"133679713","code":"","locked":"1","archived":"0","moderated":"0","enabled":true,"public_id":"ir6pvc","public_code":"ir6pvc","membership_last_updated":"0000-00-00 00:00:00","background_url":null,"description":null,"subject_id":"8","sub_subject_id":"33","start_level_id":"11","end_level_id":"11","expected_group_size_id":null,"parent_read_only":"0","parent_cannot_view_posts":"0","group_user_type":"STUDENT","has_small_groups":1,"is_small_group":0,"hex":"#3366cc","user_owns_group":0,"search_field":"native spanish ii ","co_teacher":0,"new_message_count":"0","name":"Native Spanish II ","pos":1}};
+        stateObj.groups.archived = [];
+        stateObj.groups.favorites = [26046784,24745528];
+
+        stateObj.groups.favorites_groups = [];
+        stateObj.groups.favorites_classes = [];
+
+        stateObj.groups.pinned = 0;
+
+        stateObj.community.communities = [{"community_name":"Manual Career & Tech. Center","type":"SCHOOL","thumbnail_url":"https:\/\/api.edmodo.com\/schools\/51502\/avatar?type=small","link":"school\/ManualCareerTechCtrMO51502","display":true,"school_id":"51502"},{"community_name":"Kansas City Public Schools","type":"DISTRICT","thumbnail_url":"https:\/\/api.edmodo.com\/districts\/8325\/avatar?type=small","link":"district\/KansasCityPublicSchoolsMO8325","display":true,"district_id":8325}];
+        modo.common.growth.set('GROUP_MSG_COUNT_AB_TEST', true);
+        modo.common.growth.set('STUDENT_PARENTS', [{"user_id":"131396732","username":"+18168083991","first_name":"Luis","last_name":"montejo","type":"PARENT","avatar_type":"DEFAULT","avatar_format":"JPG","default_avatar_name":"44","avatar_num":"0","relation":"OTHER","other_relation":"other"}]);
+        modo.common.growth.set('group_directory_experiment', null);
+        modo.common.growth.set('DISPLAY_WORKSHEETS_MODAL', 0);
+        modo.common.growth.set('DISPLAY_WORKSHEET_CREATION_MODAL', 0);
+        modo.common.growth.set('DISPLAY_OO_MANAGE_TAB', 0);
+
+
+				//worksheets Tour
+				if (  modo.common.growth.get('DISPLAY_WORKSHEETS_MODAL') && modo.system.Location.hash === "") {
+					var t = modo.common.translations;
+					var steps = [
+												{title:t._('worksheets.tour_1_title'), visual:'//a.edim.co/images_v2/tours/one_click_worksheets_tour/bullet_1.png', text:t._('worksheets.tour_1_text')},
+												{title:t._('worksheets.tour_2_title'), visual:'//a.edim.co/images_v2/tours/one_click_worksheets_tour/bullet_2.png', text:t._('worksheets.tour_2_text')},
+												{title:t._('worksheets.tour_3_title'), visual:'//a.edim.co/images_v2/tours/one_click_worksheets_tour/bullet_3.png', text:t._('worksheets.tour_3_text')},
+												{title:t._('worksheets.tour_4_title'), visual:'//a.edim.co/images_v2/tours/one_click_worksheets_tour/bullet_4.png', text:t._('worksheets.tour_4_text'), nextText:t._('google-tour-got-it')}
+											];
+					var tourConfig = {
+						steps             : steps,
+						step              : 0,
+						numSteps          : steps.length,
+						showArrows        : false,
+						showDots          : true,
+						customCssClass    : 'worksheets-tour'
+					}
+					this.tourApp = new FeatureTourApp({
+						tourStateOptions  : tourConfig,
+						registerTourUrl   : '/home/ajax-disable-worksheets-modal'
+					});
+					modo.common.growth.set('DISPLAY_WORKSHEETS_MODAL', 0);
+				}
+        
+            
+        
+            
+        
+
+        
+        
+        //if we're not on a server rendered homepage we need to update the internal model
+        
+    })();
+
+  modo.common.growth.set('profile_to_improve', false);
+  modo.common.growth.set('teacher_info', null);
+      modo.common.growth.set('growth_profile_completeness', '');
+  
+</script>
+
+  </div>
+
+  <div class="main-column section transparent pull-left span6" role="main"
+      aria-label="Page Content">
+
+    
+<div class="standard-home-content">
+
+	    	
+    
+<div class="home-postbox-container section">
+
+    <div id="postbox" class=" standard-postbox ">
+    <!--  --><!--<div> --><!-- </div>-->                <div  id="postbox-content" class="sunken">
+                <div id="student-selected-content" class="postbox-selected-content no-border">
+            <div type="note" id="postbox-note-content" class="clearfix pb-content   short"  role="tabpanel" aria-controls="postbox-note" aria-labelledby="postbox-note" aria-live="polite">
+                                    <div class="multi-error hidden">
+                        <p class="hidden content-error">Please write a note</p>
+                        <p class="hidden receiver-error">Please select recipients for your message</p>
+                    </div>
+                    <div class="multi-warning hidden">
+                        <p class="hidden wait-for-uploads">Please wait for your uploads to complete before sending your message.</p>
+                    </div>
+                                                                <div class="postbox-content-input placeholder-container">
+                            <textarea name="content"  resize_override="true"  class="placeholder-input emoji-enabled auto-enhance-url" aria-required="true" aria-label="Type your note here..."></textarea>
+                            <label class="placeholder-text">Type your note here...</label>                        </div>
+                                                            <div class="recipients-container clearfix ">
+                      <div class="invite-others-feature ttip" data-ttip="Send by email" data-ttip-position="left">
+            <i class="invite-others"></i>
+    
+    <div class="placeholder-container has-righthand-icon">
+        <input class="email placeholder-input " aria-label="Send by email" type="text" name="invite-others" value=""/>
+        <label class="placeholder-text">group-invitation-emails-text-</label>
+    </div>
+</div>                        <div class="post-box-send dd">
+                                                      <div name="receiver" class="postbox-send-input-container placeholder-container student" data-direction="right" >
+                                                                                                                                    <div class="student-input-placeholder"></div>
+                                                                                                    <a href="javascript:;" class="student-postbox-send-btn" aria-haspopup="true" aria-label="Select who you would like to send this message to using your arrow keys"></a>
+                                                                <label class="placeholder-text">Select a group...</label>
+                            </div>
+                                                                                          <div class="suggestion-container" role="menu">
+                                        <p class="no-receivers">No suggestions found.</p>
+                                        <ul class="student_connections">
+                                            <div class="primary_connections"></div>
+                                            <div class="secondary_connections"></div>
+                                        </ul>
+                                                                                  <div id="postbox-send-message-suggestion-in-listview">
+                                            <div id="postbox-send-message-suggestion-in-listview-text">
+                                              <div id="postbox-send-message-suggestion-in-listview-text-header">Looking for your teachers?</div>
+                                              <div id="postbox-send-message-suggestion-in-listview-text-body">You can now reach them through messaging.</div>
+                                            </div>
+                                            <div id="postbox-send-message-suggestion-in-listview-btn-div" class="btn-wrap" >
+                                              <a href="javascript:;" id="postbox-send-message-suggestion-in-listview-btn-a" class="btn light-blue-btn startNewMessage">Send a Message</a>
+                                            </div>
+                                          </div>
+                                                                            </div>
+                                                    </div>
+                                          </div>
+                                                                                <ul class="attachments" aria-live="polite"></ul>
+
+                                        <form class="postbox-bottom-content" target="upload_iframe" action="/message/ajax-send-message" enctype="multipart/form-data" method="post" >
+                                                                                
+    <div class="postbox-file-input-container ttip" data-ttip="Attach Files" data-ttip-position="bottom"><input aria-label="Attach Files" type="file" class="postbox-file-upload multi" name="file[]"/></div>
+<ul class="postbox-attach pull-left">
+    <li><a class="postbox-file file-icon" href="javascript:;" aria-label="File"></a></li>
+    <li><a class="postbox-link link-icon ttip" data-ttip="Share Link" href="javascript:;" aria-label="Share Link"></a></li>
+            <li><a class="postbox-library library-icon backpack ttip" data-ttip="Backpack" href="javascript:;" aria-label="Backpack"></a></li>
+        <li><a class="postbox-google-drive google-drive-icon ttip" data-ttip="Google Drive" href="javascript:;" aria-label="Google Drive"></a></li>
+</ul>
+                                                <div class="postbox-send-options pull-right">
+                                                                                                                                        <a href="javascript:;" class="postbox-close" data-event-key="send_cancel:click">Cancel</a>
+                                                                                                                                        <span class="subtext postbox-send-or">or</span>
+                                                                                        <a role="button" href="javascript:;"
+                                                                                                                                                                class="postbox-send btn
+                                     blue-btn                                     "
+                                data-event-key="resource_confirmed:click"
+                             aria-label="Send"                            >
+                            Send                            </a>
+                        </div>
+                                                                                                                                                    <input class="selected-receivers-input" type="hidden" name="all-selected-receivers" value="[]" />
+                                                <input class="new-links-input" type="hidden" name="new-links" value="[]" />
+                        <input class="lib-items-input" type="hidden" name="lib-items" value="[]" />
+                        <input class="tag-id-input" type="hidden" name="tag_id" value="0" />
+                        <input class="content-input" type="hidden" name="content" value="" />
+                        <input class="message-type-input" type="hidden" name="message-type" value="text" />
+                        <input class="gdocs-input" type="hidden" name="gdocs" value="" />
+                    </form>
+                            </div>
+                        <div aria-live="polite">
+            <div id="postbox-sending-container" class="sending-box pb-content hidden">
+                <p>Sending...</p>
+            </div>
+            </div>
+            <div id="postbox-sending-uploads-container" class="sending-box pb-content hidden">
+                <p>Please wait while we upload your files...</p>
+            </div>
+        </div>
+                        <ul id="postbox-suggestions"></ul>
+    </div>
+</div><script>
+
+modo.Template.set('scheduled-posts', ' <div class=\"schedule-post-container clearfix\" role=\"form\" aria-labelledby=\"facebox-header-title\"> <div class=\"error-messages hidden\"> <p class=\"date-error hidden\">Please select today\'s date or a future date.</p> <p class=\"minute-error hidden\">Please input a minute value of 00-59.</p> </div> <div class=\"scheduled-post-times\"> <div class=\"placeholder-container choose-day-container\"> <input type=\"text\" id=\"schedule-input\" class=\"scheduled-date dp-applied\" class=\"placeholder-input\" value=\"\" /> <label for=\"schedule-input\" class=\"placeholder-text\">Choose day...</label> <a class=\"dp-choose-date\" href=\"javascript:;\"></a> </div> <div id=\"hour-minute-container\"> <select class=\"scheduled-time-hour\" aria-label=\"Hour to send message\"> <option value=\"1\">1</option> <option value=\"2\">2</option> <option value=\"3\">3</option> <option value=\"4\">4</option> <option value=\"5\">5</option> <option value=\"6\">6</option> <option value=\"7\">7</option> <option value=\"8\">8</option> <option value=\"9\">9</option> <option value=\"10\">10</option> <option value=\"11\">11</option> <option value=\"12\" selected=\"selected\">12</option> </select><span id=\"schedule-colon\">:</span> <div class=\"placeholder-container\"> <input type=\"text\" id=\"scheduled-time-minute\" aria-label=\"Minute to send message\"> <label class=\"minute placeholder-text\">mm</label> </div> <select class=\"am-pm\" aria-label=\"AM or PM\"> <option value=\"AM\">AM</option> <option value=\"PM\" selected=\"selected\">PM</option> </select> </div> </div> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span>or</span> <a href=\"javascript:;\" class=\"btn blue-btn ok-schedule\">Save date and time</a> </div> ');modo.Template.set('link-attachments', ' <div class=\"link-attachment-wrapper\" role=\"form\" aria-labelledby=\"facebox-header-title\"> <div class=\"link-attachment-container\"> <p class=\"error hidden link-attachment-error\"><span>A URL or Embed code is required.</span></p> <div class=\"placeholder-container\"> <input type=\"text\" class=\"link-attachment-input\" placeholder=\"http:// or &lt;embed&gt;\"> </div> <p class=\"error hidden link-title-error\"><span>A short description is required.</span></p> <p class=\"hidden recommended-title subtext\">Recommended: <span></span></p> <div class=\"placeholder-container\"> <input type=\"text\" class=\"link-title-input\" placeholder=\"Title of the web page.\"> <input type=\"hidden\" id=\"library-thumb_url\"> <input type=\"hidden\" id=\"library-thumb_width\"> <input type=\"hidden\" id=\"library-thumb_height\"> </div> <p class=\"loading-title hidden\">Retrieving web page title...</p> </div> <div class=\"facebox-footer\"> <a class=\"cancel\" href=\"javascript:;\">Cancel</a> <span>or</span> <a class=\"btn blue-btn attach-link-btn\" href=\"javascript:;\">Attach</a> </div> </div> ');modo.Template.set('tpl-file-upload', '<li s3=\"true\" class=\"validating\" name=\"{{fileName}}\" data-state=\"{{state}}\" data-originalname=\"{{fileName}}\" data-foldername=\"{{folderName}}\"> <a href=\"javascript:;\" class=\"delete\" aria-label=\"Remove {{fileName}}\"><img key=\"{{key}}\" alt=\"Remove {{fileName}}\" src=\"//a.edim.co/images_v2/icons/delete.png\" /></a> <img class=\"attachment-icon {{type}}\" src=\"//a.edim.co/images/blank.gif\" /> <span>{{fileName}}</span> {{#if complete}} <p class=\"completed subtext\"> <img alt=\"Upload Completed\" src=\"//a.edim.co/images_v2/icons/checkmark.png\" /> </p> {{/if}} {{#if error}} <p class=\"file-error subtext\">Error uploading your file</p> {{/if}} {{#if progress}} {{#if supportsProgress}} <div class=\"upload-progress-bar\"><div></div></div> {{else}} <div class=\"loading\"></div> {{/if}} {{/if}} </li> ');modo.Template.set('tpl-file-disallowed', '<li s3=\"true\" class=\"validating disallowed\" name=\"{{fileName}}\" data-state=\"{{state}}\" data-originalname=\"{{fileName}}\" data-foldername=\"{{folderName}}\"> <a href=\"javascript:;\" class=\"delete\" aria-label=\"Remove {{fileName}}\"><img key=\"{{key}}\" alt=\"Remove {{fileName}}\" src=\"//a.edim.co/images_v2/icons/delete.png\" /></a> <img class=\"attachment-icon {{type}}\" src=\"//a.edim.co/images/blank.gif\" /> <span>{{fileName}}</span> {{#if error}} <p class=\"file-error subtext\">Error uploading your file</p> {{/if}} <div class=\"file-type-not-valid\"> <p class=\"disallowed-msg\">We apologize but this file format is not supported.</p> </div> </li> ');modo.Template.set('load-quiz', ' <div class=\"load-quiz-container\"> <div class=\"quiz-search\"> <div class=\"placeholder-container\"> <input type=\"text\" value=\"\" class=\"placeholder-input\" /> <label class=\"placeholder-text\">Search</label> <div class=\"search-icon\"></div> </div> </div> <div class=\"quiz-container\"> <div id=\"postbox-load-quiz-content\" class=\"quiz-list-item-wrap\"></div> <div class=\"load-more-container highlight\"> <a aria-label=\"more\" class=\"load-more-link\">more<span></span></a> </div> </div> </div> ');modo.Template.set('library-quiz-list', '<div class=\"quiz-list-item{{#ifEquals isvalid \'0\'}} invalid{{/ifEquals}}\" data-quiz_id=\"{{quiz_id}}\" data-isvalid=\"{{isvalid}}\" data-is_assigned=\"{{is_assigned}}\"> <div class=\"quiz-actions\"> <a class=\"icon-delete ttip\" href=\"javascript:;\" data-ttip=\"Delete\" aria-label=\"Delete {{title}}\"></a> <a class=\"icon-edit ttip\" href=\"javascript:;\" data-ttip=\"Edit\" aria-label=\"Edit {{title}}\"></a> {{#ifEquals isvalid \'1\'}} <a class=\"btn btn-mini btn-assign\" href=\"javascript:;\" aria-label=\"Assign {{name}}\">Assign</a> {{/ifEquals}} </div> <!-- The quiz can be assigned --> {{#ifEquals isvalid \'1\'}} <a class=\"quiz-list-title\" href=\"javascript:;\">{{title}}</a> <p class=\"subtext\" href=\"javascript:;\">{{description}}</p> {{/ifEquals}} <!-- Displayed if quiz needs to be completed before it can be assigned --> {{#ifEquals isvalid \'0\'}} <a class=\"quiz-list-title link-edit\" href=\"javascript:;\">{{title}}</a> <p class=\"subtext\">{{description}}</p> <p class=\"finish-quiz-to-assign\">Note: Please finish this quiz to assign</p> {{/ifEquals}} </div> ');modo.Template.set('load-assignments', ' <div class=\"load-assignment-container\"> <div class=\"assignment-search\"> <div class=\"placeholder-container\"> <input type=\"text\" maxlength=\"300\" value=\"\" class=\"placeholder-input assignment-title-input\"> <label class=\"placeholder-text\">Search</label> <div class=\"search-icon\"></div> </div> </div> <div class=\"assignment-container\"> <ul class=\"assignment-list\"></ul> <div class=\"load-more-container highlight hidden\"> <a href=\"javascript:;\">more</a> </div> </div> </div> ');modo.Template.set('library', '<div class=\"library-container clearfix\"></div> <div class=\"library-menu\"> <div class=\"left-column section transparent\"> </div> </div> <div id=\"add-from-library\" class=\"library-content\"> <div class=\"right-column section\"> </div> </div> </div>');modo.system.config.S3_ENABLED_FULL = true;
+</script>
+
+</div>
+
+<div id="urgent-content-home"></div>
+
+
+
+    
+
+
+    <div class="home-message-stream stream-content-wrap">
+
+        
+                            <div class="new-stream-container"></div>
+            
+                    <script>
+                        modo.Template.set('delete-message', ' <div class=\"delete-msg-container container\"> <p class=\"confirm-message regular hidden\">Are you sure you want to delete this message?</p> <p class=\"confirm-message assignment assignment-title hidden\">Warning! Are you sure you want to delete this message?</p> <p class=\"confirm-message assignment hidden\">Deleting an assignment is not recommended and will remove all work and grades for student submissions. This action cannot be undone.</p> <p class=\"confirm-message quiz assignment-title hidden\">Are you sure you want to delete this message?</p> <p class=\"confirm-message quiz hidden\">Deleting a quiz is not recommended and will remove all work and grades for student submissions. This action cannot be undone.</p> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span> or </span> <a href=\"javascript:;\" class=\"btn blue-btn delete-msg-button\">OK</a> </div> ');            modo.Template.set('moderated-warning', ' <div class=\"moderated-warning-container\"> <p>Your teacher must approve this message before it displays.</p> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"btn blue-btn cancel\">OK</a> </div> ');            modo.Template.set('share-post', ' <div class=\"share-post-container trans-height\"> <div class=\"share-post\"> <p class=\"error content-error hidden\"><span>Please write a note</span></p> <div class=\"placeholder-container share-description-container\"> <textarea class=\"placeholder-input\" resize_override=\"true\" tabindex=\"1\"></textarea> <label class=\"placeholder-text\">Type your note here...</label> </div> <div class=\"share-content-container sunken border2\"> <div class=\"share-img border2 pull-left\"><img src=\"\"/></div> <div class=\"share-content-right pull-left\"> <p class=\"share-sender title-12\"></p> <p class=\"share-content border2\"></p> </div> </div> <div class=\"share-receiver-container\"> <div class=\"share-input-container\"> <p class=\"error recipient-error hidden\"><span>Please select recipients for your message</span></p> <div class=\"placeholder-container share-receiver-placeholder\"> <input type=\"text\" class=\"unfocused placeholder-input share-input\" value=\"\" /> <label class=\"placeholder-text\">Send to...</label> </div> <div class=\"share-suggest-container dd\"> <ul class=\"share-suggest\"></ul> </div> </div> </div> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\" href=\"javascript:;\">Cancel</a> <span>or</span> <a href=\"javascript:;\" class=\"btn blue-btn send-shared-message\">Share</a> </div> </div> ');            modo.Template.set('hide-message', ' <div class=\"hide-messages-container\"> <input type=\"checkbox\" class=\"hide-all-comm\" name=\"hide-all-comm\"> <label for=\"hide-all-comm\"></label> </div> <div class=\"facebox-footer\"> <a class=\"cancel\" href=\"javascript:;\">Cancel</a> <span class=\"subtext\">or</span> <a class=\"btn blue-btn hide-post-button\" href=\"javascript:;\">Hide</a> </div> ');            modo.Template.set('options-list', '<ul id=\"options-list\" class=\"submenu\"> <li class=\"hide-sponsored-post eTrack\" data-track=\'{\"tracking_name\": \"hide_this_post\"}\'> <a href=\"javascript:;\">Hide this post</a> </li> <li class=\"sponsored-post-relevant eTrack\" data-track=\'{\"tracking_name\": \"feedback_post_relevant\"}\'> <a href=\"javascript:;\">Thanks, this is relevant</a> </li> <li class=\"sponsored-post-not-relevant eTrack\" data-track=\'{\"tracking_name\": \"feedback_post_not_relevant\"}\'> <a href=\"javascript:;\">This is not relevant for me</a> </li> <li class=\"delete-msg\"> <a href=\"javascript:;\">Delete Post</a> </li> <li class=\"edit-msg\"> <a href=\"javascript:;\">Edit Post</a> </li> <li class=\"escalate-msg\"> <a href=\"javascript:;\">Send to Support Team</a> </li> <li class=\"see-link-post\" url=\"https://www.edmodo.com/post/\"> <a href=\"javascript:;\">Link to this Post</a> </li> <li class=\"add-post-to-lib\"> <a href=\"javascript:;\">Add Post to Library</a> </li> <li class=\"post-added-to-lib disabled\"> <a href=\"javascript:;\">Added to Library</a> </li> <li class=\"show-public\" > <a href=\"javascript:;\"> Make Public </a> </li> <li class=\"hide-post\"> <a href=\"javascript:;\">Hide</a> </li> <li class=\"reschedule-post\"> <a href=\"javascript:;\">Reschedule</a> </li> <li class=\"send-now\"> <a href=\"javascript:;\">Send Now</a> </li> </ul> ');            modo.Template.set('edit-container', ' <div class=\"edit-container\"> {{#if assignment}} <input class=\"edit-assignment-title\" maxlength=\"300\" value=\"\"> <textarea class=\"edit-textarea emoji-enabled\"></textarea> <div class=\"edit-due-date-container pull-left\"></div> {{else}} <textarea class=\"edit-textarea emoji-enabled\"></textarea> {{/if}} <div class=\"editattachments\"> <div class=\"pb-content\"> <ul class=\"attachments\"></ul> <form class=\"postbox-bottom-content\" target=\"upload_iframe\" action=\"/message/ajax-edit-message\" enctype=\"multipart/form-data\" method=\"post\" style=\"hidden\"> <div class=\"postbox-file-input-container ttip\" data-ttip=\"Attach Files\" data-ttip-position=\"bottom\"><input aria-label=\"Attach Files\" type=\"file\" class=\"postbox-file-upload multi\" name=\"file[]\"/></div> <ul class=\"postbox-attach pull-left\"> <li><a class=\"postbox-file file-icon\" href=\"javascript:;\" aria-label=\"File\"></a></li> <li><a class=\"postbox-link link-icon ttip\" data-ttip=\"Share Link\" href=\"javascript:;\" aria-label=\"Share Link\"></a></li> <li><a class=\"postbox-library library-icon ttip\" href=\"javascript:;\" data-ttip=\"Add from Library\" aria-label=\"Add from Library\"></a></li> <li><a class=\"postbox-google-drive google-drive-icon ttip\" data-ttip=\"Google Drive\" href=\"javascript:;\" aria-label=\"Google Drive\"></a></li> </ul> <input class=\"new-links-input\" type=\"hidden\" name=\"new-links\" value=\"[]\" /> <input class=\"lib-items-input\" type=\"hidden\" name=\"lib-items\" value=\"[]\" /> <input class=\"gdocs-input\" type=\"hidden\" name=\"gdocs\" value=\"\" /> </form> </div> </div> <div class=\"edit-container-options\"> <a class=\"btn save-edit-btn blue-btn\">Save</a> <a class=\"btn cancel-button\">Cancel</a> </div> </div> ');            </script>
+            </div>
+
+<script>
+
+modo.Template.set('stream-filters', ' <div class=\"stream-filters\"> <div> <p class=\"title-12\">Author</p> <ul> <li class=\"message-icon by-me\"><a id=\"F_BY_ME\" class=\"stream-filter\" href=\"javascript:;\" rel=\"F_BY_ME\">By Me</a></li> <li class=\"message-icon by-teachers\"><a id=\"F_BY_TEACHERS\" class=\"stream-filter\" href=\"javascript:;\" rel=\"F_BY_TEACHERS\">By Teachers</a></li> </ul> <p class=\"title-12\">More</p> <ul> {{#if is_group}}{{else}}<li class=\"message-icon direct\"><a id=\"F_DIRECT\" href=\"javascript:;\" class=\"stream-filter\" rel=\"F_DIRECT\">Direct</a></li>{{/if}} </ul> </div> <div> <p class=\"title-12\">Type</p> <ul> <li class=\"message-icon latest-posts\"><a href=\"javascript:;\" id=\"F_EVERYONE\" class=\"stream-filter\" rel=\"F_EVERYONE\">Latest Activity</a></li> <li class=\"message-icon assignments\"><a id=\"F_ASSIGNMENTS\" href=\"javascript:;\" class=\"stream-filter\" rel=\"F_ASSIGNMENTS\">Assignments</a></li> <li class=\"message-icon feeds\"><a id=\"F_FEEDS\" href=\"javascript:;\" class=\"stream-filter\" rel=\"F_FEED\">Feeds</a></li> <li class=\"message-icon polls\"><a id=\"F_POLLS\" href=\"javascript:;\" class=\"stream-filter\" rel=\"F_POLLS\">Polls</a></li> <li class=\"message-icon quizzes\"><a id=\"F_QUIZZES\" href=\"javascript:;\" class=\"stream-filter\" rel=\"F_QUIZZES\">Quizzes</a></li> </ul> </div> </div> ');modo.Template.set('filter-header', ' <div class=\"filter-header {{type}} {{open}}\"> <p class=\"pull-left\">{{title}}</p> <a class=\"filter-close-link pull-right border2\" href=\"javascript:;\"></a> <p class=\"assignment-filter-options pull-right\"> <a href=\"javascript:;\" id=\"filter-date-posted\" class=\"border2 selected\">Date Posted</a> <a id=\"filter-coming-due\" href=\"javascript:;\" class=\"border2 \">Coming Due</a> </p> </div> ');modo.Template.set('new-message-bar', '<p id=\"new-message-bar\" class=\"new-messages-header {{open}}\"> <a href=\"javascript:;\">{{message}}&nbsp;&nbsp;&bull;&bull;&bull;</a> </p> ');modo.Template.set('general-facebox', ' <div class=\"general-facebox\" style=\"{{{style}}}\"> <div class=\"padding-20\">{{{prompt}}}</div> <div class=\"facebox-footer\"> <a class=\"cancel\" href=\"javascript:;\"> Cancel </a> <span> or </span> <a class=\"btn blue-btn\" href=\"javascript:;\">Yes</a> </div> </div> ');modo.Template.set('share-quiz-facebox', ' <div class=\"share-quiz-facebox\" style=\"{{{style}}}\"> <div class=\"share-quiz-content\"> <div class=\"share-quiz-text-div\"> <textarea rols=\"4\" id=\"share-quiz-text\">I\'d like to share my {{quiz_title}} quiz with you.</textarea> </div> <div class=\"share-quiz-recipient-div\"> <input id=\"share-quiz-recipient\" class=\"share-quiz-input\" type=\"text\" value=\"\" /><div class=\"share-quiz-input-icon\"></div> </div> <div class=\"quiz-disclaimer\">By sharing this Quiz, the recipient will receive a copy that they can edit, assign, and share independently.</div> </div> <div class=\"facebox-footer\"> <a class=\"cancel\" href=\"javascript:;\"> Cancel </a> <span> or </span> <a class=\"btn blue-btn\" href=\"javascript:;\">Send</a> </div> </div> ');modo.Template.set('follower-row', '<li class=\"follower-row row follower-row-{{id}}\" data-id=\"{{id}}\"> <a href=\"{{url}}\"> <img height=\"80\" src=\"{{thumb}}\" /> </a> <div class=\"follower-info\"> <p class=\"follower-title\"> <a class=\"follower-name follower-name-{{id}} text-14\" href=\"{{url}}\">{{name}}</a> {{#if owned}} <div class=\"access-dropdown dd\"> <a href=\"javascript:;\" class=\"follower-settings drop-down-link\"></a> <ul class=\"submenu\"> <li> <a class=\"remove-user\" data-id=\"{{id}}\">Remove from Community</a> </li> </ul> </div> {{/if}} </p> <div class=\"clearfix\"></div> <p class=\"follower-school subtext\">{{school}}</p> <p class=\"follower-communities subtext\">{{subjects}}</p> </div> </li> ');
+
+
+</script>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="group-show-all section hidden"></div>
+
+
+
+  </div>
+
+  <div class="right-column section transparent pull-right span3r" role="group">
+
+    
+<div id="snapshot-banner" style="display:none">
+    </div>
+
+<div class="sticky" id="home-right-rail-ads-container"></div>
+  </div>
+
+</div>
+
+
+    <span id="stream-data-container" style="display: none" data-stream="{&quot;newPostStreamOptions&quot;:{&quot;push_state&quot;:false,&quot;root&quot;:&quot;\/&quot;,&quot;mixpanel_token&quot;:&quot;0&quot;,&quot;domainRoot&quot;:&quot;https:\/\/www.edmodo.com\/&quot;,&quot;show_filter&quot;:true,&quot;filter_type&quot;:&quot;home&quot;,&quot;useZendmodoTokenFetch&quot;:true,&quot;show_direct_post_filter&quot;:true,&quot;show_by_others_post_filter&quot;:true,&quot;pin_context&quot;:null,&quot;message_state&quot;:{&quot;context&quot;:&quot;home&quot;,&quot;item_types&quot;:&quot;note,poll,assignment,quiz,app_message,template_message&quot;,&quot;template_types&quot;:&quot;basic,banner,promo,html&quot;,&quot;user_conversations&quot;:false,&quot;exclude_creator_id&quot;:false,&quot;page&quot;:1,&quot;per_page&quot;:3,&quot;ip_address&quot;:&quot;169.142.1.111&quot;},&quot;page_context&quot;:&quot;home_page&quot;,&quot;show_replybox&quot;:true,&quot;use_pipeman&quot;:true,&quot;mentions_enabled&quot;:true,&quot;translations_enabled&quot;:true,&quot;include_sub_replies&quot;:true,&quot;reply_liking_enabled&quot;:true,&quot;reply_attachments_enabled&quot;:true,&quot;mark_important_enabled&quot;:false,&quot;rich_text_enabled&quot;:true,&quot;for_home_page&quot;:true,&quot;stream_container_class_name&quot;:&quot;.new-stream-container&quot;,&quot;initial_page_size&quot;:3,&quot;initial_stream_data&quot;:null,&quot;load_more_scroll_check&quot;:1,&quot;ads_info&quot;:{&quot;iframe_url&quot;:&quot;https:\/\/a.edim.co\/ads-native\/placement-201701301719.html&quot;,&quot;keyValues&quot;:{&quot;ck_audience_type&quot;:&quot;student&quot;,&quot;audience_type&quot;:&quot;student&quot;,&quot;ck_languages&quot;:&quot;en&quot;,&quot;ck_country&quot;:&quot;us&quot;,&quot;country&quot;:&quot;us&quot;,&quot;ck_state&quot;:&quot;mo&quot;,&quot;grades&quot;:&quot;twelfth&quot;},&quot;positions&quot;:{&quot;chat-rail-mid&quot;:{&quot;placement&quot;:&quot;\/41710666\/ChatRailMid&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;refresh_rate&quot;:100000,&quot;tab_refresh_interval&quot;:60000}},&quot;android-global&quot;:{&quot;placement&quot;:&quot;T40LNgE8JFnohRDefAj7_e_btDbkxTPYdGkPGDBh&quot;,&quot;provider&quot;:&quot;ads_native&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:1,&quot;interval&quot;:10}}},&quot;library-rail-mid&quot;:{&quot;placement&quot;:&quot;\/41710666\/LibraryRailMid&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[[300,250]],&quot;refresh_rate&quot;:45000,&quot;tab_refresh_interval&quot;:60000}},&quot;home-rail-left&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeRailLeft&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[[160,600]],&quot;refresh_rate&quot;:180000,&quot;tab_refresh_interval&quot;:60000}},&quot;home-feed-edmodo&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeFeedEdmodo&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[522,450]],&quot;ad_positions&quot;:{&quot;fixed&quot;:4}}},&quot;ios-stream-inline&quot;:{&quot;placement&quot;:&quot;\/41710666\/ios-stream-inline&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:1,&quot;interval&quot;:5}}},&quot;ios-notifications-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/ios-notifications-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:null},&quot;group-rail-left&quot;:{&quot;placement&quot;:&quot;\/41710666\/GroupRailLeft&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[[160,600]],&quot;refresh_rate&quot;:45000,&quot;tab_refresh_interval&quot;:60000}},&quot;school-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/SchoolRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;time_refresh_interval&quot;:110000}},&quot;android-messages-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/android-messages-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;refresh_rate&quot;:60000}},&quot;home-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[256,192]],&quot;tab_refresh_interval&quot;:60000,&quot;time_refresh_interval&quot;:130000,&quot;sharethrough_key&quot;:&quot;EgMoHTFtr4YJdpymBCVdQavY&quot;}},&quot;home-rail-mid&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeRailMid&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[1,1]],&quot;refresh_rate&quot;:180000,&quot;tab_refresh_interval&quot;:60000,&quot;sharethrough_key&quot;:&quot;EgMoHTFtr4YJdpymBCVdQavY&quot;}},&quot;android-test&quot;:{&quot;placement&quot;:&quot;0t2xMdHVeGyFrqm4Edg_I0KxvFIcTIDK2HzUwCdq&quot;,&quot;provider&quot;:&quot;ads_native&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:3,&quot;interval&quot;:6}}},&quot;home-feed&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeFeed&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[522,450],[1,1]],&quot;ad_positions&quot;:{&quot;fixed&quot;:1},&quot;preroll_video_ad&quot;:true,&quot;sharethrough_key&quot;:&quot;AsRqCyGZaFAcBFbvyUfZuqN9&quot;}},&quot;topic-rail-mid&quot;:{&quot;placement&quot;:&quot;\/41710666\/TopicRailMid&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;refresh_rate&quot;:60000}},&quot;android-classlist-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/android-classlist-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:null},&quot;android-stream-inline&quot;:{&quot;placement&quot;:&quot;\/41710666\/android-stream-inline&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:1,&quot;interval&quot;:5}}},&quot;ios-classlist-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/ios-classlist-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:null},&quot;library-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/LibraryRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[[300,250]],&quot;refresh_rate&quot;:45000,&quot;tab_refresh_interval&quot;:60000}},&quot;topic-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/TopicRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;refresh_rate&quot;:60000}},&quot;logout-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/LogoutTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[970,250],&quot;refresh_rate&quot;:60000,&quot;tab_refresh_interval&quot;:60000}},&quot;android-notifications-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/android-notifications-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:null},&quot;ios-messages-header&quot;:{&quot;placement&quot;:&quot;\/41710666\/ios-messages-header&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:null},&quot;home-rail-bottom&quot;:{&quot;placement&quot;:&quot;\/41710666\/HomeRailBottom&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[300,600]],&quot;refresh_rate&quot;:70000,&quot;tab_refresh_interval&quot;:60000}},&quot;ios-test&quot;:{&quot;placement&quot;:&quot;Q0vfjBLuSUATY1l8sqP5if2H0ErznR3K0x81rHCz&quot;,&quot;provider&quot;:&quot;ads_native&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:3,&quot;interval&quot;:6}}},&quot;group-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/GroupRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[300,600]],&quot;tab_refresh_interval&quot;:60000,&quot;time_refresh_interval&quot;:130000,&quot;sharethrough_key&quot;:&quot;EgMoHTFtr4YJdpymBCVdQavY&quot;}},&quot;profile-left-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/ProfileLeftRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;time_refresh_interval&quot;:120000}},&quot;ios-global&quot;:{&quot;placement&quot;:&quot;XtM6RXMnQAME8V_ZYGfi5cqE4iLLBsm0F4OusLvc&quot;,&quot;provider&quot;:&quot;ads_native&quot;,&quot;meta&quot;:{&quot;ad_positions&quot;:{&quot;fixed&quot;:1,&quot;interval&quot;:10}}},&quot;chat-rail-top&quot;:{&quot;placement&quot;:&quot;\/41710666\/ChatRailTop&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250]],&quot;refresh_rate&quot;:90000,&quot;tab_refresh_interval&quot;:60000}},&quot;group-rail-mid&quot;:{&quot;placement&quot;:&quot;\/41710666\/GroupRailMid&quot;,&quot;provider&quot;:&quot;dfp&quot;,&quot;meta&quot;:{&quot;sizes&quot;:[&quot;fluid&quot;,[300,250],[300,600]],&quot;refresh_rate&quot;:180000,&quot;tab_refresh_interval&quot;:60000,&quot;sharethrough_key&quot;:&quot;EgMoHTFtr4YJdpymBCVdQavY&quot;}}},&quot;videos&quot;:[]},&quot;ad_positions&quot;:[&quot;home-feed&quot;,&quot;home-feed-edmodo&quot;]}}"></span>
+
+<script>
+modo.Template.set('invite-students-modal', '<form class=\"invite-student-modal-container\"> <div class=\"pane-1 pane active\"> <h4>Let\'s Connect with Your Students!</h4> <p>We\'ll email each student instructions on how to join {{#if hasMultiple}}your groups{{else}}{{first.title}}{{/if}}. It will only take them a minute.</p> {{#if hasMultiple}} <div class=\"group-selection-container\"> <p>Group Name</p> <select id=\"group-select-dropdown\" class=\"group-input\" name=\"group_id\" data-toggle=\"dropdown\"> {{#each groups}} <option value=\"{{group_id}}\">{{#if name}}{{name}}{{else}}{{title}}{{/if}}</option> {{/each}} </select> </div> {{else}} <input type=\"hidden\" class=\"group-input\" name=\"group_id\" value=\"{{group_id}}\" /> {{/if}} <textarea name=\"emails\" placeholder=\"student@school.edu, student2@school.edu, etc\"></textarea> <p class=\"error email-error hidden\">Please include at least one email.</p> <p class=\"error system-error hidden\">An unexpected error occurred. Please try again. If this continues, please <a href=\"https://support.edmodo.com/hc/en-us/requests/new?ticket_form_id=4510\">contact support</a></p> <div class=\"invite-student-modal-btn-container\"> <a href=\"javascript:;\" class=\"light-green-btn-flat\"><span class=\"standard-text\">Email Invites</span><span class=\"active-text\">Sending</span></a> </div> <div class=\"join-code-container\"> <h4>With your students now?</h4> <p class=\"login-signup-text\">Have them login or signup at <strong>https://edmo.do/j/<span class=\"public-code\">{{public_code}}</span></strong></p> </div> <div class=\"bg-books\"></div> </div> <div class=\"pane-2 pane\"> <div class=\"invite-student-modal-inner success-pane\"> <h4>Congratulations!</h4> <p>Soon you\'ll be connected with your students in your very own online classroom. Now it\'s your time to shine!</p> <div class=\"bg-balloons\"></div> </div> </div> </form> ');modo.Template.set('tpl-groups-list', ' <div class=\"list-container alternate-content all-group-list\"> <div class=\"title-row\"> <p class=\"section-header\"> Classes </p> <div class=\"placeholder-container pull-right\" role=\"search\"> <input type=\"text\" class=\"unfocused placeholder-input\" id=\"group-search\" value=\"\" /> <label class=\"placeholder-text\" for=\"group-search\"> Search classes... </label> </div> <ul class=\"list-sub-menu\"> <li> <a id=\"toggle-all-groups\" href=\"javascript:;\">Active</a> </li> <li> <a id=\"toggle-archived-groups\" href=\"javascript:;\">Archived</a> </li> </ul> </div> <div id=\"manage-group-no-groups\"> <div class=\"subtext\">You do not belong to any groups</div> </div> </div> ');modo.Template.set('email-field', '{{#if custom_label}} <div class=\"custom-label\">{{custom_label}}</div> {{/if}} <div class=\"placeholder-container {{#if has_response}}has-response{{/if}} {{#if email}}active busy{{/if}} {{#if email_taken}}add-margin has-error{{/if}} {{#if email_invalid}}has-error{{/if}} {{#if email_mx_record_invalid}}has-error{{/if}}\"> <input type=\"text\" id=\"teacher-em-input\" class=\"placeholder-input teacher-em-input\" name=\"em\" value=\"{{email}}\" autocomplete=\"off\" autocapitalize=\"none\"/> <label class=\"placeholder-text {{#if custom_label}}hidden{{/if}}\" for=\"teacher-em-input\"> {{#if custom_placeholder}} {{custom_placeholder}} {{else if show_school_email}} School Email Address {{else if email_optional}} Email (Optional) {{else if or_email}} Or Email {{else}} Email Address {{/if}} </label> {{#if checking_email}} <img src=\"//a.edim.co/images_v2/loader_32x32.gif\" /> {{else}} {{#if email_available}} <img src=\"//a.edim.co/images_v2/icons/checkmark.png\" class=\"checkmark\" /> {{/if}} {{/if}} <div class=\"response-container\"> {{#if email_taken}} <p class=\"response taken err\">Email already taken. Want to <a id=\'goToLogin\' href=\'javascript:;\'> login </a> or <a id=\'goToRecover\' href=\'javascript:;\'> recover your password? </a> {{/if}} {{#if email_mx_record_invalid}} <p class=\"response taken err\">Please enter an email with valid domain</p> {{/if}} {{#if email_invalid}} <p class=\"response invalid err\">Not an email address</p> {{/if}} {{#if email_available}} <p class=\"response success\">Email available!</p> {{/if}} {{#if email_required}} <p class=\"response required err\">Email required.</p> {{/if}} {{#if email_in_invalid_list}} <p class=\"response required err\">{{email_in_invalid_list_txt}}</p> {{/if}} </div> </div> {{#if phone_reg_teacher_v2_enabled}} <a class=\"signup-method phone\" href=\"javascript:;\">Click here to use Phone Number</a> {{/if}} ');
+
+
+    modo.common.account.receivers = [
+                            {type:'group',
+            id:'24745528',
+            name:'C++ and Java 2017-2018',
+                                  user_type:0,
+                 hex:'#3366cc' }
+                                        ,            {type:'group',
+            id:'26046784',
+            name:'Native Spanish II ',
+                                  user_type:0,
+                 hex:'#3366cc' }
+                                        ,            {type:'user',
+            id:'133679713',
+            name:'Lineth Posada',
+                                  user_type:'TEACHER',
+                 thumb:'https://u.ph.edim.co/default-avatars/44_42.jpg' }
+                                        ,            {type:'user',
+            id:'26632177',
+            name:'Mr. Harold Smith',
+                                  user_type:'TEACHER',
+                 thumb:'https://u.ph.edim.co/58ee/26632177_7_42.png' }
+                                        ,            {type:'user',
+            id:'127106583',
+            name:'laddiel montejo',
+                                  user_type:0,
+                 thumb:'https://u.ph.edim.co/default-avatars/44_140.jpg' }
+                                    ];
+
+
+
+
+modo.classes.PostBox.etParams = 0;
+
+modo.common.growth.set('social_topics_enabled', false);
+modo.common.growth.set('social_topics_sidebar_enabled', false);
+modo.common.growth.set('topics_onboarding_version', "");
+modo.common.growth.set('email_verified_for_topics', false);
+modo.common.growth.set('profile_completion_step', []);
+modo.common.growth.set('note_only_onboarding', false);
+modo.common.growth.set('topic_auto_tag_enabled', false);
+modo.common.growth.set('new_stream_enabled', true);
+modo.common.growth.set('student_onboarding_data', '{"display_onboarding":false,"country_code":"US"}');
+modo.common.growth.set('student_invite_parent_test', 'CONTROL');
+modo.common.growth.set('student_invite_parents_experiment_enabled',  false)
+modo.common.growth.set('group_join_mode_enabled', false);
+modo.common.growth.set('teacher_invite_nag_test', "false");
+modo.common.growth.set('display_google_picker', true);
+modo.common.growth.set('intention_picker_test', '');
+modo.common.growth.set('homepage_right_hand_rail_invite_ads_revised_test', 'CONTROL');
+
+modo.common.ads_info = {"iframe_url":"https:\/\/a.edim.co\/ads-native\/placement-201701301719.html","keyValues":{"ck_audience_type":"student","audience_type":"student","ck_languages":"en","ck_country":"us","country":"us","ck_state":"mo","grades":"twelfth"},"positions":{"chat-rail-mid":{"placement":"\/41710666\/ChatRailMid","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"refresh_rate":100000,"tab_refresh_interval":60000}},"android-global":{"placement":"T40LNgE8JFnohRDefAj7_e_btDbkxTPYdGkPGDBh","provider":"ads_native","meta":{"ad_positions":{"fixed":1,"interval":10}}},"library-rail-mid":{"placement":"\/41710666\/LibraryRailMid","provider":"dfp","meta":{"sizes":[[300,250]],"refresh_rate":45000,"tab_refresh_interval":60000}},"home-rail-left":{"placement":"\/41710666\/HomeRailLeft","provider":"dfp","meta":{"sizes":[[160,600]],"refresh_rate":180000,"tab_refresh_interval":60000}},"home-feed-edmodo":{"placement":"\/41710666\/HomeFeedEdmodo","provider":"dfp","meta":{"sizes":["fluid",[300,250],[522,450]],"ad_positions":{"fixed":4}}},"ios-stream-inline":{"placement":"\/41710666\/ios-stream-inline","provider":"dfp","meta":{"ad_positions":{"fixed":1,"interval":5}}},"ios-notifications-header":{"placement":"\/41710666\/ios-notifications-header","provider":"dfp","meta":null},"group-rail-left":{"placement":"\/41710666\/GroupRailLeft","provider":"dfp","meta":{"sizes":[[160,600]],"refresh_rate":45000,"tab_refresh_interval":60000}},"school-rail-top":{"placement":"\/41710666\/SchoolRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"time_refresh_interval":110000}},"android-messages-header":{"placement":"\/41710666\/android-messages-header","provider":"dfp","meta":{"refresh_rate":60000}},"home-rail-top":{"placement":"\/41710666\/HomeRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250],[256,192]],"tab_refresh_interval":60000,"time_refresh_interval":130000,"sharethrough_key":"EgMoHTFtr4YJdpymBCVdQavY"}},"home-rail-mid":{"placement":"\/41710666\/HomeRailMid","provider":"dfp","meta":{"sizes":["fluid",[300,250],[1,1]],"refresh_rate":180000,"tab_refresh_interval":60000,"sharethrough_key":"EgMoHTFtr4YJdpymBCVdQavY"}},"android-test":{"placement":"0t2xMdHVeGyFrqm4Edg_I0KxvFIcTIDK2HzUwCdq","provider":"ads_native","meta":{"ad_positions":{"fixed":3,"interval":6}}},"home-feed":{"placement":"\/41710666\/HomeFeed","provider":"dfp","meta":{"sizes":["fluid",[300,250],[522,450],[1,1]],"ad_positions":{"fixed":1},"preroll_video_ad":true,"sharethrough_key":"AsRqCyGZaFAcBFbvyUfZuqN9"}},"topic-rail-mid":{"placement":"\/41710666\/TopicRailMid","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"refresh_rate":60000}},"android-classlist-header":{"placement":"\/41710666\/android-classlist-header","provider":"dfp","meta":null},"android-stream-inline":{"placement":"\/41710666\/android-stream-inline","provider":"dfp","meta":{"ad_positions":{"fixed":1,"interval":5}}},"ios-classlist-header":{"placement":"\/41710666\/ios-classlist-header","provider":"dfp","meta":null},"library-rail-top":{"placement":"\/41710666\/LibraryRailTop","provider":"dfp","meta":{"sizes":[[300,250]],"refresh_rate":45000,"tab_refresh_interval":60000}},"topic-rail-top":{"placement":"\/41710666\/TopicRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"refresh_rate":60000}},"logout-top":{"placement":"\/41710666\/LogoutTop","provider":"dfp","meta":{"sizes":[970,250],"refresh_rate":60000,"tab_refresh_interval":60000}},"android-notifications-header":{"placement":"\/41710666\/android-notifications-header","provider":"dfp","meta":null},"ios-messages-header":{"placement":"\/41710666\/ios-messages-header","provider":"dfp","meta":null},"home-rail-bottom":{"placement":"\/41710666\/HomeRailBottom","provider":"dfp","meta":{"sizes":["fluid",[300,250],[300,600]],"refresh_rate":70000,"tab_refresh_interval":60000}},"ios-test":{"placement":"Q0vfjBLuSUATY1l8sqP5if2H0ErznR3K0x81rHCz","provider":"ads_native","meta":{"ad_positions":{"fixed":3,"interval":6}}},"group-rail-top":{"placement":"\/41710666\/GroupRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250],[300,600]],"tab_refresh_interval":60000,"time_refresh_interval":130000,"sharethrough_key":"EgMoHTFtr4YJdpymBCVdQavY"}},"profile-left-rail-top":{"placement":"\/41710666\/ProfileLeftRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"time_refresh_interval":120000}},"ios-global":{"placement":"XtM6RXMnQAME8V_ZYGfi5cqE4iLLBsm0F4OusLvc","provider":"ads_native","meta":{"ad_positions":{"fixed":1,"interval":10}}},"chat-rail-top":{"placement":"\/41710666\/ChatRailTop","provider":"dfp","meta":{"sizes":["fluid",[300,250]],"refresh_rate":90000,"tab_refresh_interval":60000}},"group-rail-mid":{"placement":"\/41710666\/GroupRailMid","provider":"dfp","meta":{"sizes":["fluid",[300,250],[300,600]],"refresh_rate":180000,"tab_refresh_interval":60000,"sharethrough_key":"EgMoHTFtr4YJdpymBCVdQavY"}}},"videos":[]};
+modo.common.ads_sortable_enabled = true;
+modo.common.ads_a9_enabled = false;
+modo.common.content_video_provider = 'control';
+modo.common.debug_ads = false;
+
+modo.system.config.GOOGLE_API_KEY = '339378826083-17qb64dfntrdv4p5kuvu1lnp3t73vn2v.apps.googleusercontent.com';
+modo.system.config.GOOGLE_BROWSER_KEY = 'AIzaSyCuObDYTEXgrYpfP4Z-kTiU5Txox_zrDns';
+
+//GROUP INVITATIONS VARIANTS
+
+modo.common.growth.set('show_group_directory_prompt_modal', false);
+
+    modo.Analytics.pixel(null, 'home-view', 'view', { product: 'home' });
+
+    modo.common.constants.VERIFY_TEACHER_POPUP = Number();
+
+    modo.Template.set('edmodo-developer-bar', '<div id=\"edmodo-developer-bar\"> <div class=\"content\"> <ul id=\"devbar-sections\"> <li>Edmodo Developer Bar.</li> <li class=\"devbar-trigger-section\"> <span class=\"devbar-dropdown-trigger\">AB Tests</span> <div class=\"devbar-dropdown\" id=\"devbar-abtests-dropdown\"> <ul id=\"devbar-abtests-list\"> {{#each ab_tests}} <li data-test-name=\"{{test_name}}\"> {{test_name}} <span class=\'devbar-variant\'>{{variant}}</span> </li> {{/each}} </ul> </div> </li> </ul> </div> </div> ');
+    modo.Template.set('office-online-new-file-modal', ' <div id=\"office-online-new-modal\" class=\"clearfix\" data-event-type=\"office-app\"> <div class=\"office-info\"> <div class=\"office-icon office-icon-logo\"></div> <p class=\"student-teacher-welcome-text\" style=\"margin-top: 10px\"> Whichever file you choose to create, it\'s automatically saved to your Backpack, where you can view and edit it anytime. </p> </div> <div class=\"office-button word\" data-type=\"docx\" data-event-key=\"file_type_select:click\" data-event-attrs=\'{\"file_type\":\"docx\"}\'> <div class=\"office-icon-word\"></div> <div class=\"office-app-name\"> Word Online </div> </div> <div class=\"office-button powerpoint\" data-type=\"pptx\" data-event-key=\"file_type_select:click\" data-event-attrs=\'{\"file_type\":\"pptx\"}\'> <div class=\"office-icon office-icon-powerpoint\"></div> <div class=\"office-app-name\"> PowerPoint Online </div> </div> <div class=\"office-button excel\" data-type=\"xlsx\" data-event-key=\"file_type_select:click\" data-event-attrs=\'{\"file_type\":\"xlsx\"}\'> <div class=\"office-icon office-icon-excel\"></div> <div class=\"office-app-name\"> Excel Online </div> </div> <div class=\"office-action-options-header other-office365-apps-header\"> <p style=\"margin-top: 10px\"> Other Office 365 apps </p> </div> <div class=\"office-action-options-header get-more-in-office-header\"> <p style=\"margin-top: 10px\"> Get more in Office 365 </p> </div> <div class=\"office-button-small portal\" data-link=\"https://portal.office.com/Home\" style=\"display: none\"> <div class=\"office-icon office-icon-portal\"></div> <div class=\"office-app-name small-button\"> Portal </div> </div> <div class=\"office-button-small onedrive\" data-link=\"https://onedrive.com/\" style=\"display: none\"> <div class=\"office-icon office-icon-onedrive\"></div> <div class=\"office-app-name small-button\"> OneDrive </div> </div> <div class=\"office-button-small sway\" data-link=\"https://www.sway.com/?auth_pvr=OrgId&auth_upn=laddielmontejo12@gmail.com\" style=\"display: none\"> <div class=\"office-icon office-icon-sway\"></div> <div class=\"office-app-name small-button\"> Sway </div> </div> <div class=\"office-button-small mix\" data-link=\"https://mix.office.com/Account/SignIn/OpenIdConnect?ReturnUrl=%2FAccount%3FreturnUrl%3D%252Fen-us%252FHome&narrow=False\" style=\"display: none\"> <div class=\"office-icon office-icon-mix\"></div> <div class=\"office-app-name small-button\"> Mix </div> </div> <div class=\"office-button-small onenote\" data-link=\"https://www.onenote.com/notebooks?auth=2\" style=\"display: none\"> <div class=\"office-icon office-icon-onenote\"></div> <div class=\"office-app-name small-button\"> OneNote </div> </div> <div class=\"office-signup-promo\" style=\"display: none\"> <div class=\"rc\"> <img src=\"//a.edim.co/images_v2/random/office-promo.png\" height=\"30\"/> </div> <div class=\"lc\"> <p class=\"title\">Get access to OneDrive, OneNote, Sway, and more with Office 365</p> <br> <a class=\"btn green-btn close-facebox\" id=\"ms-connect-link-launcher\" href=\"https://api.edmodo.com/auth/office365?option=sign_in&redirect_to=https://www.edmodo.com/home?source=msLauncher\" target=\"_blank\">Link your Office 365 Account</a> </div> </div> </div> ');
+    modo.Template.set('connect-google-sidebar', ' <div class=\"section connect-google-sidebar-module\"> <div class=\"header\"> <a class=\"google-sidebar-close pull-right\"></a> </div> <div class=\"icon-edmodo-google\"></div> <h3 class=\"section-header-bg-white google-section-header\">Unlock the power of Edmodo + Google</h3> <div class=\"sso-signup-container-inner\"> <a href=\"javascript:;\" role=\"button\" class=\"connect-google-drive-link third-party-auth-btn google\" data-provider=\"google\" data-link_type=\"sign_up\"> <div class=\"google-connect-prompt\"> <span class=\"third-party-auth-icon google-auth-sign-up-icon\"></span>Connect with Google </div> </a> </div> </div> ');        </script>
+
+<script>
+  modo.common.subjects = {
+    subjects: null  };
+</script>
+
+    <iframe src="https://play.edmodo.com/version.html" width="0" height="0" class="hidden"></iframe>
+
+
+        
+
+<script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
+
+
+          </div>
+
+          <div class="clear"></div>
+
+          
+          
+          
+      </div> 
+      </div> 
+                              <div id="footer" role="contentinfo">
+    <ul class="ft">
+    <li style=""><span>Edmodo &#x00a9;2018 </span></li>
+    <li style=""><a href="/about?language=en">
+        About    </a></li>
+    <li style=""><a href="/careers">
+        Careers    </a></li>
+    <li style=""><a href="/newsroom">
+        Newsroom    </a></li>
+    <li style=""><a href="/contact">
+        Contact Us    </a></li>
+    <li style=""><a href="/teachers">
+        Teachers    </a></li>
+    <li style=""><a href="/principals">
+        Principals    </a></li>
+    <li style=""><a href="/community">
+        Community    </a></li>
+    <li style=""><a href="https://blog.edmodo.com" class="ft-blog" onclick="modo.Analytics.pixel(null, 'landing-page', 'blog', {})">
+        Blog    </a></li>
+    <li style=""><a href="/support">
+        Support    </a></li>
+    <li style=""><a href="/corporate/privacy-policy?language=en">
+        Privacy    </a></li>
+    <li style=""><a href="/corporate/terms-of-service?language=en">
+        Terms of Service    </a></li>
+    <li class="languages-menu dd">
+        <a data-target="#" class="language" title="Languages">
+            Languages            <img src="//a.edim.co/images_v2/brand/worldmap.png" alt="Languages" class="language-map">
+        </a>
+        <div class="languages-panel full-panel panel">
+        <div class="inner-panel border3">
+        <ul id="sub-languages" class="panel-content border3">
+        <li><a class="translate id" language="id" title="Bahasa Indonesia">Bahasa Indonesia</a></li>
+        <li><a class="translate de" language="de" title="Deutsch">Deutsch</a></li>
+        <li><a class="translate en_GB" language="en_GB" title="English (UK)">English (UK)</a></li>
+        <li><a class="translate en" language="en" title="English (US)">English (US)</a></li>
+        <li><a class="translate es" language="es" title="Español">Español</a></li>
+        <li><a class="translate fr" language="fr" title="Français">Français</a></li>
+        <li><a class="translate ka_GE" language="ka_GE" title="ქართული">ქართული</a></li>
+        <li><a class="translate hr" language="hr" title="Hrvatski">Hrvatski</a></li>
+        <li><a class="translate it" language="it" title="Italiano">Italiano</a></li>
+        <li><a class="translate lt_LT" language="lt_LT" title="Lietuvių">Lietuvių</a></li>
+        <li><a class="translate nl" language="nl" title="Nederlands">Nederlands</a></li>
+        <li><a class="translate ptbr" language="pt-br" title="Português (Brasil)">Português (Brasil)</a></li>
+        <li><a class="translate sv" language="sv" title="Svenska">Svenska</a></li>
+        <li><a class="translate tr" language="tr" title="Türkçe">Türkçe</a></li>
+        <li><a class="translate el" language="el" title="Ελληνικά">Ελληνικά</a></li>
+        <li><a class="translate sr_RS" language="sr_RS" title="Српски">Српски</a></li>
+        <li><a class="translate uk" language="uk" title="Українська">Українська</a></li>
+        <li><a class="translate zh" language="zh" title="中文">中文</a></li>
+        <li><a class="translate ja" language="ja" title="日本語">日本語</a></li>
+        </ul>
+        <div class="panelarrow"><div></div></div>
+        </div>
+        </div>
+    </li>
+
+        </ul>
+</div>
+                
+      <div class="clear"></div>
+
+      <script>
+
+          
+              modo.Template.set('share-widget', '<div><div id=\"topic-postbox\" class=\" standard-postbox \"> <!-- --><!--<div> --><!-- </div>--> <div id=\"topic-postbox-content\" class=\"sunken\"> <div id=\"topic-selected-content\" class=\"postbox-selected-content\"> <div type=\"note\" id=\"postbox-note-content\" class=\"clearfix pb-content \" style=\"display: block\" role=\"tabpanel\" aria-controls=\"postbox-note\" aria-labelledby=\"postbox-note\" aria-live=\"polite\"> <div class=\"multi-error hidden\"> <p class=\"hidden content-error\">Please write a note</p> <p class=\"hidden receiver-error\">Please select recipients for your message</p> </div> <div class=\"multi-warning hidden\"> <p class=\"hidden wait-for-uploads\">Please wait for your uploads to complete before sending your message.</p> </div> <div class=\"postbox-content-input placeholder-container\"> <textarea name=\"content\" id=\"topic-textarea\" resize_override=\"true\" class=\"placeholder-input emoji-enabled auto-enhance-url\" aria-required=\"true\" aria-label=\"Type your note here...\"></textarea> <label class=\"placeholder-text\">Type your note here...</label> </div> <div class=\"recipients-container clearfix \"> <div class=\"invite-others-feature ttip\" data-ttip=\"Send by email\" data-ttip-position=\"left\"> <i class=\"invite-others\"></i> <div class=\"placeholder-container has-righthand-icon\"> <input class=\"email placeholder-input \" aria-label=\"Send by email\" type=\"text\" name=\"invite-others\" value=\"\"/> <label class=\"placeholder-text\">group-invitation-emails-text-</label> </div> </div> <div id=\"topic-post-box-send\" class=\"post-box-send dd\"> <div name=\"receiver\" class=\"postbox-send-input-container placeholder-container\" > <div class=\"search-icon\"></div> <input id=\"postbox-note-input\" class=\"postbox-send-input placeholder-input\" type=\"text\" value=\"\" aria-label=\"Type the name of a group...\" aria-haspopup=\"true\" /> <label class=\"placeholder-text\">Type the name of a group...</label> </div> <div class=\"suggestion-container\" role=\"menu\"> <p class=\"no-receivers\">No suggestions found.</p> <ul class=\"_connections\"> <div class=\"primary_connections\"></div> <div class=\"secondary_connections\"></div> </ul> </div> </div> </div> <ul class=\"attachments\" aria-live=\"polite\"></ul> <form class=\"postbox-bottom-content\" target=\"upload_iframe\" action=\"/message/ajax-send-message\" enctype=\"multipart/form-data\" method=\"post\" > <div class=\"postbox-send-options pull-right\"> <a href=\"javascript:;\" class=\"postbox-close\" data-event-key=\"send_cancel:click\">Cancel</a> <span class=\"subtext postbox-send-or\">or</span> <a role=\"button\" href=\"javascript:;\" id=\"topic-send-btn\" class=\"postbox-send btn blue-btn \" data-event-key=\"resource_confirmed:click\" aria-label=\"Send\" > Send </a> </div> <input class=\"selected-receivers-input\" type=\"hidden\" name=\"all-selected-receivers\" value=\"[]\" /> <input class=\"new-links-input\" type=\"hidden\" name=\"new-links\" value=\"[]\" /> <input class=\"lib-items-input\" type=\"hidden\" name=\"lib-items\" value=\"[]\" /> <input class=\"tag-id-input\" type=\"hidden\" name=\"tag_id\" value=\"0\" /> <input class=\"content-input\" type=\"hidden\" name=\"content\" value=\"\" /> <input class=\"message-type-input\" type=\"hidden\" name=\"message-type\" value=\"text\" /> <input class=\"gdocs-input\" type=\"hidden\" name=\"gdocs\" value=\"\" /> </form> </div> <div aria-live=\"polite\"> <div id=\"postbox-sending-container\" class=\"sending-box pb-content hidden\"> <p>Sending...</p> </div> </div> <div id=\"postbox-sending-uploads-container\" class=\"sending-box pb-content hidden\"> <p>Please wait while we upload your files...</p> </div> </div> <ul id=\"postbox-suggestions\"></ul> </div> <p class=\"topic-success hidden\">Your message has been sent successfully!</p> </div></div>');              modo.Template.set('comment', ' <li delete_rights=\"1\" edit_rights=\"1\" class=\"comment clearfix\" id=\"comment-content-{{comment-id}}\"> <a href=\"/home#/profile/{{creator-id}}\" class=\"avatar pull-left border2\"> <img alt=\"{{sender-name}}\" src=\"{{avatar}}\" class=\"small-avatar\" /> </a> <div class=\"comment-right pull-left\"> <div class=\"comment-header\"> <div class=\"reply-options dd pull-right\"> <a href=\"javascript:;\" class=\"reply-options-btn\"></a> </div> <a href=\"/home#/profile/{{creator-id}}\">{{sender-name}}</a> <span class=\"subtext\"><span>&bull;</span> {{time}}</span> </div> <p class=\"comment-content {{#if short}}{{else}}hidden{{/if}}\">{{content}}</p> <div class=\"comment-content-full {{#if short}}hidden{{/if}}\"> <span>{{content-short}}</span> <a class=\"toggle-comment-content\" shown=\"false\" href=\"javascript:;\">more...</a> </div> </diV> </li> ');              modo.Template.set('app-bar-sidebar', '<div class=\"appbar-sidebar-module section\"> <h3 class=\"section-header-bg-white\">Manage Apps</h3> <ul class=\"clearfix\"> <li class=\"appbar-store appbar-link\"><a href=\"https://spotlight.edmodo.com/Browse/Resources-Type/Edmodo-Connect-Apps/\" aria-label=\"Spotlight Apps\"><i class=\"icon-store\"></i></a></li> <li class=\"appbar-launcher appbar-link\"><a href=\"javascript:;\" aria-label=\"Go to Store\" ><i class=\"icon-store-launch\"></i></a></li> {{#if officeOnline}} <li class=\"appbar-app app-0\"> <a data-application-id=\"edmodo-office-online\" data-is-ssl-app=\"true\" href=\"javascript:;\" > <img src=\"/images_v2/icons/office_appicon.png\" alt=\"Office Online\"/> </a> </li> {{/if}} <li class=\"appbar-app app-{{#if officeOnline}}1{{else}}0{{/if}}\"> <a data-application-id=\"edmodo-planner\" data-is-ssl-app=\"true\" href=\"javascript:;\" > <img src=\"//a.edim.co/images_v2/icons/eplanner_appicon.png\" alt=\"Edmodo Planner\" /> </a> </li> {{#each apps}} <li class=\"appbar-app app-{{@index}}\"> <a data-application-id=\"{{application_id}}\" data-is-ssl-app=\"{{is_ssl_app}}\" data-cookie-set-url=\"{{cookie_set_url}}\" data-is-edmodo-connect=\"{{is_edmodo_connect}}\" href=\"javascript:;\" > <img src=\"//apps.edim.co/{{properties.small_icon}}\" alt=\"{{properties.name}}\"/> </a> </li> {{/each}} </ul> </div> ');          
+          modo.Template.set('link-to-post', ' <div class=\"link-to-post-container\"> <input type=\"text\" class=\"unique-post-url\" value=\"\" readonly /> </div> <div class=\"facebox-footer\"> <a href=\"javascript:;\" class=\"cancel\">Cancel</a> <span> or </span> <a class=\"btn blue-btn go-to-post cancel\" href=\"\" target=\"_BLANK\">View Message</a> </div> ');          modo.Template.set('postbox-link', '<div class=\"postbox-link-attachment clearfix\" link=\"{{url}}\" title=\"{{title}}\" data-url=\"{{originalUrl}}\" data-thumb_url=\"{{thumbnail_url}}\" data-thumb_height=\"{{thumbnail_height}}\" data-thumb_width=\"{{thumbnail_width}}\" > <div class=\"link-thumb-viewport\" style=\"background-image: url({{thumbnail_url}});\"></div> <div class=\"link-content-container\"> <p><a href=\"javascript:;\" class=\"remove-link\"></a></p> <p class=\"title\"> <span class=\"title-container\"><a class=\"attachment-title\" href=\"javascript:;\">{{title}}</a> <a class=\"edit-attachment-title\" href=\"javascript:;\">Edit</a></span> <span class=\"title-edit-container hidden\"><input type=\"text\" /> <a class=\"save-attachment-title\" href=\"javascript:;\">Save</a></span> </p> <p class=\"subtext\">{{urlShort}}</p> </div> </div> ');          modo.Template.set('postbox-embed', '<div class=\"postbox-embed-attachment clearfix\" link=\"{{html}}\" title=\"{{title}}\" data-thumb_url=\"{{thumbnail_url}}\" data-thumb_height=\"{{height}}\" data-thumb_width=\"{{width}}\" > <div class=\"link-thumb-viewport\" style=\"background-image: url({{thumbnail_url}});\"></div> <div class=\"link-content-container\"> <p><a href=\"javascript:;\" class=\"remove-link\"></a></p> <p class=\"title\"> <span class=\"title-container\"> <a class=\"attachment-title\" href=\"javascript:;\">{{title}}</a> <a class=\"edit-attachment-title\" href=\"javascript:;\">Edit</a> </span> <span class=\"title-edit-container hidden\"> <input type=\"text\" /> <a class=\"save-attachment-title\" href=\"javascript:;\">Save</a> </span> </p> <p class=\"subtext\">{{provider_url}}</p> </div> </div>');          modo.Template.set('modal-pin-confirm', '<div class=\"pin-confirm-container\"> <p>By selecting \'Pin Post\' you will replace the current post that is pinned to your group.</p> <div class=\"facebox-plain-footer\"> <a href=\"javascript:;\" class=\"btn cancel\">Cancel</a> <a href=\"javascript:;\" class=\"btn green-btn\"><span class=\"pin-post\">Pin Post</span><span class=\"pinning\">Pinning...</a> </div> </div> ');      </script>
+  </div>     <div id="component-app-quicklaunch" role="region" aria-label="Edmodo Apps">
+    <div class="nav">
+        <ul data-section="apps_launchpad">
+                                    <li data-action="toggle-launchpad" class="ttip" data-ttip="Apps Launcher" data-ttip-position="left">
+                <span class="counter">0</span>
+                <a href="javascript:void(0);">
+                    <i class="icon-store-launch"></i><span>Apps Launcher</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+    <div class="apps-dock is-at-top">
+        <ul></ul>
+    </div>
+</div>
+<div id="component-app-quicklaunch-pad" class="app-quicklaunch-pane">
+    <div class="launchpad clearfix">
+        <ul></ul>
+    </div>
+</div>
+<script>
+  modo.Template.set('replica-login-modal', '<div class=\"login-wrapper\"> <form class=\"login-form sign-up-container login-form-modal\" action=\"/\" method=\"post\" autocomplete=\"off\" role=\"form\" aria-labelledby=\"login-title\" aria-live=\"assertive\"> <h4 id=\"welcome-back-title\">Welcome Back</h4> <div class=\"username-field-container placeholder-container\"> <input id=\"un\" class=\"un placeholder-input\" type=\"text\" name=\"username\" value=\"\" autocomplete=\"off\"/> <label class=\"placeholder-text\" for=\"un\">Username</label> </div> <div class=\"phone-field-container hidden\"> <input type=\"tel\" id=\"phone-input\" class=\"placeholder-input phone-input\" name=\"phone\" autocomplete=\"off\" autocapitalize=\"none\"/> </div> <div class=\"response-container username-response-container hidden\"> <p class=\"response invalid err\">Username required</p> </div> <div class=\"placeholder-container\"> <input id=\"pw\" class=\"pw placeholder-input\" type=\"password\" name=\"password\" autocomplete=\"off\"/> <label class=\"placeholder-text\" for=\"pw\">Password</label> </div> <div class=\"response-container password-response-container hidden\"> <p class=\"response invalid err\">Password required</p> </div> <a href=\"javascript:;\" id=\"lightbox-login\" class=\"btn green-btn submit-btn\"><span class=\"default\">Login</span><span class=\"active\"><img src=\"/images_v2/loader_green_disabled_32x32.gif\" aria-label=\"Logging In\" /></span></a> <div class=\"response-container login-response-container username-email hidden\"> <p class=\"response invalid err\">Incorrect username or password</p> </div> <div class=\"response-container login-response-container phone-number hidden\"> <p class=\"response invalid err\">Incorrect phone number or password</p> </div> <div class=\"response-container system-response-container hidden\"> <p class=\"response invalid err\">An error has occurred. If you continue to receive this message please contact support at <a href=\"mailto:support@edmodo.com\">support@edmodo.com</a></p> </div> <input type=\"hidden\" class=\"go2url\" name=\"go2url\" value=\"\" /> <input type=\"hidden\" class=\"group-code\" name=\"group-code\" value=\"\" /> <input type=\"hidden\" class=\"join-code\" name=\"join-code\" value=\"\" /> </form> </div> ');</script>
+  
+
+<script>
+        try {
+        modo.common.growth.set('abtests', {"new_notifications_menu":"enabled","Activity_Review_Test":"CONTROL","assignment_center_title":"enabled","gradebook_v3":"CONTROL","ads_header_bidding_rollout":"sortable","ads_a9_rollout":"CONTROL","content_video_provider":"CONTROL","sharethrough_rollout":"ENABLED","bounce_x_logged_in_rollout":"CONTROL","engagement_group_message_count_students":"count","new_stream_home":"enabled","reply_mentions":"enabled","stream_translations":"enabled","new_post_box_urgent_note":"CONTROL","stream_rich_text":"show","homepage_right_hand_rail_invite_ads_revised_test":"CONTROL","student_invite_parent":"CONTROL","student_invite_parents_experiment":"CONTROL","home_stream_three_message_gatekeeper":"enabled","coauth_20160622":"CONTROL","coauth_20160721_recipients":"enabled","new_stream_markdown":"CONTROL","GROW2_new_post_box_all_connections":"enabled","engagement_parent_test_b10":"v6","engagement_recent_activity":"recent_activity"});
+        modo.common.growth.set('ab_three_col', true);
+        modo.common.growth.set('landing_page', false);
+        modo.common.growth.set('share_via_email', 'control');
+        modo.common.growth.set('gradebook_v3', false);
+    } catch(e) {
+        Bugsnag.notifyException(e);
+    }
+        $(window).load(function() {
+        setTimeout(function(){
+            modo.common.performance.getData();
+        }, 0);
+    });
+        $.getScript("//cdn.optimizely.com/js/6042640202.js", function(data, textStatus, jqxhr) {}, true);
+</script>
+
+
+<script type="text/javascript">
+    
+        var serverUrl = modo.system.config.WATERBOY_URL + "/wns_channels";
+        var device_id = ''      // Physical device ID UUID
+        var device_os = ''      // OS name and version
+        var app_version = ''    // Version of Edmodo app
+        var one_api_access_token = '';
+
+
+        var requestChannelURI = function () {
+
+            if (typeof Windows === 'undefined' ||
+                typeof Windows.UI === 'undefined' ||
+                typeof Windows.UI.Notifications === 'undefined') {
+                    return;
+            }
+            setupLiveTileNotificationQueue();
+            listenWnsNotifications();
+            hideDisabledForWindows10();
+            var pushNotifications = Windows.Networking.PushNotifications;
+            var channelOperation = pushNotifications.PushNotificationChannelManager.createPushNotificationChannelForApplicationAsync();
+            var promiseReturned = channelOperation.then(
+                channelOperationSuccess,
+                channelOperationFailed
+            );
+            return promiseReturned;
+        }
+
+        var hideDisabledForWindows10 = function () {
+            $(".spotlight.dd").hide()
+        }
+
+        var listenWnsNotifications = function () {
+            Windows.UI.WebUI.WebUIApplication.addEventListener('activated', function (args) {
+                var activation = Windows.ApplicationModel.Activation;
+                if (
+                    args.kind === activation.ActivationKind.launch &&
+                    args.arguments &&
+                    args.arguments.trim().length > 0
+                ) {
+                    window.location = args.arguments.trim()
+                }
+            });
+        }
+
+        var setupLiveTileNotificationQueue = function() {
+            var notifications = Windows.UI.Notifications;
+            notifications.TileUpdateManager.createTileUpdaterForApplication().enableNotificationQueue(true);
+        }
+
+        var channelOperationSuccess = function(newChannel) {
+            if (alreadySavedInWindowsLocalStorage(newChannel.uri, newChannel.expirationTime) == false) {
+                Billygoat.syncer.getToken({}, function(one_api_access_token){
+                    sendUriToWaterBoy(one_api_access_token);
+                })
+            }
+        }
+
+        var channelOperationFailed = function(error) {}
+
+        var alreadySavedInWindowsLocalStorage = function(channelUri, channelExpirationTime) {
+            var validDataAlreadyInStorage = true;
+
+            if (window.localStorage == null) {
+                validDataAlreadyInStorage = false;
+            }
+            if (window.localStorage.channelUri == null ||
+                window.localStorage.channelUri != channelUri) {
+                window.localStorage.channelUri = channelUri;
+                validDataAlreadyInStorage = false;
+            }
+            if (window.localStorage.channelExpirationTime == channelExpirationTime ||
+                window.localStorage.channelExpirationTime != channelExpirationTime) {
+                window.localStorage.channelExpirationTime = channelExpirationTime;
+                validDataAlreadyInStorage = false;
+            }
+            return validDataAlreadyInStorage;
+        }
+
+        var sendUriToWaterBoy = function (one_api_access_token) {
+            var channelUri = window.localStorage.channelUri;
+            window.wns_device_id = device_id = (device_id === '' ? setUUID() : device_id);
+            device_os = (device_os === '' ? setDeviceOS() : device_os);
+            app_version = (app_version === '' ? setAppVersion() : app_version );
+
+            data_payload = {
+                "wns_channel":{
+                "device_id": device_id,
+                "os": device_os,
+                "uri": channelUri,
+                "app_version": app_version
+            }};
+
+            $.ajax({
+                method: "POST",
+                url: serverUrl,
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "Accept": "application/json",
+                    "Authorization": "Bearer " + one_api_access_token
+                },
+                data: data_payload
+            }).done(function( msg ) {
+
+            }).fail(function( jqXHR, textStatus ) {
+            });
+        }
+
+
+        function setAppVersion() {
+            if (window.localStorage.appVersion == null || window.localStorage.appVersion == '') {
+                window.localStorage.appVersion = Windows.ApplicationModel.Package.current.id.fullName;
+            }
+            return window.localStorage.appVersion;
+        }
+
+        function setUUID() {
+            if (window.localStorage.UUID == null || window.localStorage.UUID == '') {
+                var currentDeviceInfor = new Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation();  
+                window.localStorage.UUID = currentDeviceInfor.id;
+            }
+            return window.localStorage.UUID;
+        }
+
+        function setDeviceOS () {
+            if (window.localStorage.deviceOS == null || window.localStorage.deviceOS == '') {
+                var currentDeviceInfor = new Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation();  
+                window.localStorage.deviceOS = currentDeviceInfor.operatingSystem;
+            }
+            return window.localStorage.deviceOS;
+        }
+
+        function isWindows10 () {
+            if (typeof Windows === 'undefined' ||
+                typeof Windows.UI === 'undefined' ||
+                typeof Windows.UI.Notifications === 'undefined') {
+                    return false;
+            }
+            return true;
+        }
+
+        $(document).on('ready', function() {
+            requestChannelURI();
+        })
+
+    </script>
+
+<script src="/ads.js" type="text/javascript"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cc8dcaebfe","applicationID":"2709272","transactionName":"MQNaZkFWV0dQUhJQWghJeVFHXlZaHlUDX1QTCkwdW1hUUR5YCF1QHg==","queueTime":0,"applicationTime":923,"atts":"HURNEAlMRBgTUEQDThsb","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
