@@ -1,0 +1,60 @@
+<!--
+Title       : Sample HTML Program
+Programmer  : Harold Smith
+Date        : Feb 28, 2018
+Purpose     : To experiment with HTML, embedded CSS, and video backgrounds
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Contact Form   
+        </title>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        </head>
+        <h1 id="title">Manual Career and Technical Center</h1>
+        <h2>Contact Form</h2>
+        <h2 id="description">Please fill out and submit the form in order to receive more information.</h2>
+
+    <div class="container">
+      <form action="mailto:hasmith@kcpublicschools.org" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <p></p>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <p></p>
+        <label for="country">School your in currently  </label>
+        <select id="country" name="country">
+            <option value="central">Central</option>
+            <option value="paseo">Paseo</option>
+            <option value="altavista">Alta vista</option>
+            <option value="northeast">North east</option>
+            <option value="southwest">Southwest</option>
+        </select>
+        <p></p>
+         <label for="country">Class you would like to attend</label>
+        <select id="country" name="country">
+            <option value="automotivecollision">Automotive Collision</option>
+            <option value="automotiveTech">Automotive Tech</option>
+            <option value="c++Java">C++ Java</option>
+            <option value="construction">Construction Tech</option>
+            <option value="culinaryarts">Culinary Arts</option>
+            <option value="educatorprep">Educator Prep</option>
+            <option value="emt">Emt</option>
+            <option value="Healthscience">Health science</option>
+            <option value="Introtodesignengineering">Intro to design engineering</option>
+        </select>
+        <p></p>
+        <label for="attend">why you would like to attend</label>
+        <textarea id="attend" name="subject" placeholder="Type here" style="height:200px"></textarea>
+        <p></p>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+</body>
+</html>

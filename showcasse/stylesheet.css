@@ -1,0 +1,207 @@
+
+            * 
+            {
+                box-sizing: border-box;
+            }
+
+            body 
+            {
+                margin: 0;
+                font-family: Arial;
+                font-size: 25px;
+                background: #000;
+            }
+
+            #myVideo 
+            {
+                position: fixed;
+                top: 00%;
+                left: 40%;
+                right: 0%;
+                bottom: 0;
+                width: 60%; 
+                min-height: 100%;
+                
+                
+            }
+            
+            #myVideoA
+            {
+                position: fixed;
+                top: -30%;
+                right: 0%;
+                width: 30%; 
+                min-height: 100%;  
+            }
+            
+            #myVideoB
+            {
+                position: fixed;
+                top: 30%;
+                right: 0%;;
+                width: 30%; 
+                min-height: 100%;  
+            }
+            
+            #myVideoC
+            {
+                position: fixed;
+                top: -2%;
+                left: 40%;
+                right: 0%;
+                width: 30%; 
+                min-height: 100%;  
+            }
+            
+            .myVideo-border{
+                position: relative;
+                border: #FF0000;
+                border-width: 20px;
+                
+                overflow: hidden;
+            }
+
+            .content 
+            {
+                position: fixed;
+                left: 0;
+                bottom: 1%;
+                background: rgba(0, 0, 0, .9);
+                color: #f1f1f1;
+                width: 40%;
+                height: 100%;
+                padding: 15px;
+            }
+
+            #soundBtn 
+            {   height: 25px;
+                width: 200px;
+                font-size: 10px;
+                padding: 2px;
+                border: none;
+                background: #FF;
+                color: #000;
+                cursor: pointer;
+            }
+            
+            #pauseBtn 
+            {   height: 25px;
+                width: 200px;
+                font-size: 10px;
+                padding: 2px;
+                border: none;
+                background: #FF;
+                color: #000;
+                cursor: pointer;
+            }
+            
+            #myBtn 
+            {   height: 75px;
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+             #myBtn1 
+            {   height: 100px;
+                width: 200px;
+                font-size: 18px;
+                padding: 5x;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+            #myBtn2 
+            {   height: 75px;
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: white;
+                border-style: solid;
+                border-width: thin;
+                border: none;
+                background: #FF0000;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+        
+            #myBtn1:hover {
+                background: #FF0000;
+                color: #000000;
+            }
+            
+            #myBtn2:hover {
+                background: #ddd;
+                color: #ddd;
+            }
+            
+            h1
+            {
+                position:static;
+                top: -2%;
+                width: 200%;
+                font-size: 55px;
+                letter-spacing: 2px;
+                line-height: .1;
+                color: #FF0000;
+                font-family: Oswald, sans-serif;
+                text-align: left;
+            }
+            
+            h2 
+            {
+                background-color:rgba(0, 0, 0, .5);
+                position: static;
+                top: 8%;
+                left:0%;
+                width: 100%;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                color: whitesmoke;
+                font-family: Oswald, sans-serif;
+                text-align: left;
+            }
+            
+    input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    border-color: red;
+    border-width: 25px;
+    position: fixed;
+    top: 20%;
+    background: rgba(0, 0, 0, .9);
+    color: red;
+    width: 40%;
+    height: 50%;
+}
+
